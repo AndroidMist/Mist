@@ -1,0 +1,32 @@
+filename: MobileOrg_v0.9.13_com.matburt.mobileorg.Gui.Widget.CaptureWidgetConfig_misExpose.txt
+reason: 3 noDefault
+result: mustIA
+
+filename: MobileOrg_v0.9.13_com.dropbox.client2.android.AuthActivity_misExpose.txt
+reason: 5 clsDeclare
+result: mustEA
+
+filename: MobileOrg_v0.9.13_com.matburt.mobileorg.Plugin.SyncEditActivity_misExpose.txt
+reason: 3 noDefault
+result: mustIA
+
+filename: com.jadn.cc_com.jadn.cc.ui.SubscriptionEdit_misExpose.txt
+reason: 10 ifTrue and not exTrue 
+result: mayIA
+
+filename: MobileOrg_v0.9.13_com.matburt.mobileorg.Gui.Capture.EditActivity_misExpose.txt
+reason: 4 clsInvoke or actInvoke
+result: mustEA
+
+filename: com.jadn.cc_com.jadn.cc.ui.OpmlImport_misExpose.txt
+reason: 10 ifTrue and not exTrue 
+result: mayIA
+
+filename: MobileOrg_v0.9.13_com.matburt.mobileorg.Gui.Wizard.WizardActivity_misExpose.txt
+reason: 10 ifTrue and not exTrue 
+result: mayIA
+
+filename: MobileOrg_v0.9.13_com.matburt.mobileorg.Gui.SearchActivity_misExpose.txt
+reason: 1 ifTrue and not exTrue and sysActNoData
+result: mustIA
+

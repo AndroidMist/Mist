@@ -1,0 +1,9 @@
+5 clsDeclare		1		0.125
+1 ifTrue and not exTrue and sysActNoData		1		0.125
+10 ifTrue and not exTrue		3		0.375
+3 noDefault		2		0.25
+4 clsInvoke or actInvoke		1		0.125
+
+mustEA		2		0.25
+mayIA		3		0.375
+mustIA		3		0.375
