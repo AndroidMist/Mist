@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/edit_payload_view" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <WebView android:id="@id/edit_payload_webview" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <EditText android:id="@id/edit_payload_edittext" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/edit_payload_save" />
+    <ImageButton android:id="@id/edit_payload_edit" android:background="@drawable/ic_menu_edit" android:visibility="gone" android:layout_width="35.0dip" android:layout_height="35.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <ImageButton android:id="@id/edit_payload_cancel" android:background="@drawable/ic_menu_close_clear_cancel" android:visibility="gone" android:layout_width="35.0dip" android:layout_height="35.0dip" android:layout_toLeftOf="@id/edit_payload_save" />
+    <ImageButton android:id="@id/edit_payload_save" android:background="@drawable/ic_menu_save" android:visibility="gone" android:layout_width="35.0dip" android:layout_height="35.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+</RelativeLayout>

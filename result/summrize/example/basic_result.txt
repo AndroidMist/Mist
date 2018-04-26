@@ -1,0 +1,63 @@
+analyzed app num: 2
+total act num: 39
+total ea num: 8
+
+average act num: 19.5
+average ea num: 4.0
+average ea/act ratio: 0.19518716577540107
+
+success analyze num: 57
+failed analyze num: 2
+average success analyze num: 28.5
+average failed analyze num: 1.0
+average fail analyze ratio: 0.03419053185271771
+
+call activity of other app: 15
+call activity of this app: 43
+call internal activity of this app: 25
+call exported activity of this app: 18
+
+call activity emplicity: 39
+call activity implicity: 19
+call exported activity of this app explictly: 8
+call exported activity of this app implictly: 10
+
+ea invokcation: 5
+ia invokcation: 22
+average ea invokcation ratio: 0.75
+average ia invokcation ratio: 0.7145833333333333
+
+exported attr is true: 2
+exported attr is false: 0
+exported attr is null: 37
+exported attr is null, ea: 9
+exported attr is null, not ea: 28
+
+lm_standard_total num: 38
+lm_singleTop_total num: 0
+lm_singleTask_total num: 1
+lm_singInstance_total num: 0
+
+lm_standard_ea num: 7, 0.18421052631578946
+lm_singleTop_ea num: 0, NaN
+lm_singleTask_ea num: 1, 1.0
+lm_singInstance_ea num: 0, NaN
+
+mainAct : 0
+actionCalled : 2
+componentCalled : 0
+priority_set : 0
+debugortestEA : 0
+nocategory : 3
+noaction : 0
+sysactionOnly : 4
+
+mustEA : 1
+mustIA : 3
+mayEA : 3
+mayIA : 1
+
+average execute time: 5 s 
+max execute time: 9 s
+min execute time: 2 s
+-----------------------------------------

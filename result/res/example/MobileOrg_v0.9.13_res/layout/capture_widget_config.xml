@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:paddingTop="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/EditBorders">
+        <EditText android:id="@id/widget_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/title" android:inputType="textAutoCorrect|textCapSentences|textMultiLine" />
+    </LinearLayout>
+    <LinearLayout android:paddingTop="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/EditBorders">
+        <fragment android:name="com.matburt.mobileorg.Gui.Capture.LocationFragment" android:tag="captureLocationFragment" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/widget_cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cancel" />
+        <Button android:id="@id/widget_save" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/save" />
+    </LinearLayout>
+</LinearLayout>

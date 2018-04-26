@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="twofortyfouram_locale_application_not_available">アプリケーションがインストールされていません。</string>
+    <string name="twofortyfouram_locale_breadcrumb_format">%1$s%2$s%3$s</string>
+    <string name="twofortyfouram_locale_breadcrumb_separator">" > "</string>
+    <string name="twofortyfouram_locale_marketactivity_dialog_title">Localeが必要です</string>
+    <string name="twofortyfouram_locale_marketactivity_dialog_message">このプラグインを使用するにはLocaleが必要です。AndroidマーケットでLocaleを検索しますか?</string>
+    <string name="twofortyfouram_locale_marketactivity_dialog_button_search">検索</string>
+    <string name="twofortyfouram_locale_menu_dontsave">キャンセル</string>
+    <string name="twofortyfouram_locale_menu_help">ヘルプ</string>
+    <string name="twofortyfouram_locale_menu_save">完了</string>
+</resources>

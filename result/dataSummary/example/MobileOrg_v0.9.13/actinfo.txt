@@ -1,0 +1,474 @@
+
+-------------------------------------------------
+Activity: com.matburt.mobileorg.Gui.Agenda.AgendaSettings
+======
+Instruction: <com.matburt.mobileorg.Gui.Agenda.AgendaSettings: void createAgendaBlockEntry()>
+virtualinvoke $r0.<com.matburt.mobileorg.Gui.Agenda.AgendaSettings: void startActivity(android.content.Intent)>($r1)
+
+Entry function: 
+<com.matburt.mobileorg.Gui.Agenda.AgendaSettings: void createAgendaBlockEntry()>
+fromTopFunction: false
+intent_use: specialinvoke $r1.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>($r0, class "com/matburt/mobileorg/Gui/Agenda/AgendaEntrySetting")
+intent_use: virtualinvoke $r1.<android.content.Intent: android.content.Intent putExtra(java.lang.String,int)>("agenda_number", $i0)
+
+className: com.matburt.mobileorg.Gui.Agenda.AgendaEntrySetting
+key: agenda_number type: int
+call_this_app: true
+call_ea_in_this_app: false
+
+-------------------------------------------------
+Activity: com.matburt.mobileorg.Synchronizers.WebDAVSynchronizer
+======
+Instruction: <com.matburt.mobileorg.Synchronizers.WebDAVSynchronizer: void handleChangedCertificate()>
+virtualinvoke $r2_1.<android.content.Context: void startActivity(android.content.Intent)>($r1)
+
+Entry function: 
+<com.matburt.mobileorg.Synchronizers.WebDAVSynchronizer: void handleChangedCertificate()>
+fromTopFunction: false
+intent_use: virtualinvoke $r1.<android.content.Intent: android.content.Intent setFlags(int)>(268435456)
+intent_use: specialinvoke $r1.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>($r2, class "com/matburt/mobileorg/Gui/CertificateConflictActivity")
+
+className: com.matburt.mobileorg.Gui.CertificateConflictActivity
+flag: 268435456
+call_this_app: true
+call_ea_in_this_app: false
+
+-------------------------------------------------
+Activity: com.matburt.mobileorg.Gui.Outline.OutlineActionMode
+======
+Instruction: <com.matburt.mobileorg.Gui.Outline.OutlineActionMode: void runEditNodeActivity(long,android.content.Context)>
+virtualinvoke $r0.<android.content.Context: void startActivity(android.content.Intent)>($r1)
+
+Entry function: 
+<com.matburt.mobileorg.Gui.Outline.OutlineActionMode: void runEditNodeActivity(long,android.content.Context)>
+fromTopFunction: false
+intent_use: specialinvoke $r1.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>($r0, class "com/matburt/mobileorg/Gui/Capture/EditActivity")
+intent_use: virtualinvoke $r1.<android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)>("actionMode", "edit")
+intent_use: virtualinvoke $r1.<android.content.Intent: android.content.Intent putExtra(java.lang.String,long)>("node_id", $l0)
+
+className: com.matburt.mobileorg.Gui.Capture.EditActivity
+key: actionMode type: java.lang.String
+key: node_id type: long
+call_this_app: true
+call_ea_in_this_app: true
+======
+Instruction: <com.matburt.mobileorg.Gui.Outline.OutlineActionMode: void runViewNodeActivity(long,android.content.Context)>
+virtualinvoke $r0.<android.content.Context: void startActivity(android.content.Intent)>($r1)
+
+Entry function: 
+<com.matburt.mobileorg.Gui.Outline.OutlineActionMode: void runViewNodeActivity(long,android.content.Context)>
+fromTopFunction: false
+intent_use: virtualinvoke $r1.<android.content.Intent: android.content.Intent putExtra(java.lang.String,long)>($r2, $l0)
+intent_use: specialinvoke $r1.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>($r0, class "com/matburt/mobileorg/Gui/ViewActivity")
+
+className: com.matburt.mobileorg.Gui.ViewActivity
+key: <com.matburt.mobileorg.Gui.ViewActivity: java.lang.String NODE_ID> type: long
+call_this_app: true
+call_ea_in_this_app: false
+======
+Instruction: <com.matburt.mobileorg.Gui.Outline.OutlineActionMode: void runCaptureActivity(long,android.content.Context)>
+virtualinvoke $r0.<android.content.Context: void startActivity(android.content.Intent)>($r1)
+
+Entry function: 
+<com.matburt.mobileorg.Gui.Outline.OutlineActionMode: void runCaptureActivity(long,android.content.Context)>
+fromTopFunction: false
+intent_use: specialinvoke $r1.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>($r0, class "com/matburt/mobileorg/Gui/Capture/EditActivity")
+intent_use: virtualinvoke $r1.<android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)>("actionMode", $r2_2)
+intent_use: virtualinvoke $r1.<android.content.Intent: android.content.Intent putExtra(java.lang.String,long)>("node_id", $l0)
+
+className: com.matburt.mobileorg.Gui.Capture.EditActivity
+key: actionMode type: java.lang.String
+key: node_id type: long
+call_this_app: true
+call_ea_in_this_app: true
+
+-------------------------------------------------
+Activity: com.dropbox.client2.android.AuthActivity
+======
+Instruction: <com.dropbox.client2.android.AuthActivity: void startWebAuth()>
+virtualinvoke $r0.<com.dropbox.client2.android.AuthActivity: void startActivity(android.content.Intent)>($r1)
+
+Entry function: 
+<com.dropbox.client2.android.AuthActivity: void startWebAuth()>
+fromTopFunction: false
+intent_use: specialinvoke $r1.<android.content.Intent: void <init>(java.lang.String,android.net.Uri)>("android.intent.action.VIEW", $r4)
+
+action: android.intent.action.VIEW
+uridata: uri: ;
+call_this_app: true
+call_ea_in_this_app: true
+======
+Instruction: <com.dropbox.client2.android.AuthActivity: void onResume()>
+virtualinvoke $r0.<com.dropbox.client2.android.AuthActivity: void startActivity(android.content.Intent)>($r1)
+
+Entry function: 
+<com.dropbox.client2.android.AuthActivity: void onResume()>
+fromTopFunction: false
+intent_use: virtualinvoke $r1.<android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)>("CALLING_PACKAGE", $r2_4)
+intent_use: virtualinvoke $r1.<android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)>("CONSUMER_SIG", $r2_3)
+intent_use: virtualinvoke $r1.<android.content.Intent: android.content.Intent setAction(java.lang.String)>("com.dropbox.android.AUTHENTICATE_V1")
+intent_use: virtualinvoke $r1.<android.content.Intent: android.content.Intent setClassName(java.lang.String,java.lang.String)>("com.dropbox.android", "com.dropbox.android.activity.auth.DropboxAuth")
+intent_use: virtualinvoke $r1.<android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)>("CONSUMER_KEY", $r2_2)
+
+className: com.dropbox.android.activity.auth.DropboxAuth
+action: com.dropbox.android.AUTHENTICATE_V1
+key: CONSUMER_KEY type: java.lang.String
+key: CALLING_PACKAGE type: java.lang.String
+key: CONSUMER_SIG type: java.lang.String
+call_this_app: false
+call_ea_in_this_app: false
+
+-------------------------------------------------
+Activity: com.actionbarsherlock.internal.view.menu.MenuItemImpl
+======
+Instruction: <com.actionbarsherlock.internal.view.menu.MenuItemImpl: boolean invoke()>
+virtualinvoke $r7.<android.content.Context: void startActivity(android.content.Intent)>($r6_1)
+
+Entry function: 
+<com.actionbarsherlock.internal.view.menu.MenuItemImpl: boolean invoke()>
+fromTopFunction: false
+intent_use: $r0 := @this: com.actionbarsherlock.internal.view.menu.MenuItemImpl
+
+className: com.actionbarsherlock.internal.view.menu.MenuItemImpl
+call_this_app: false
+call_ea_in_this_app: false
+
+-------------------------------------------------
+Activity: com.matburt.mobileorg.Synchronizers.Synchronizer
+======
+Instruction: <com.matburt.mobileorg.Synchronizers.Synchronizer: void decryptAndParseFile(com.matburt.mobileorg.OrgData.OrgFile,java.io.BufferedReader)>
+virtualinvoke $r4_1.<android.content.Context: void startActivity(android.content.Intent)>($r3)
+
+Entry function: 
+<com.matburt.mobileorg.Synchronizers.Synchronizer: void decryptAndParseFile(com.matburt.mobileorg.OrgData.OrgFile,java.io.BufferedReader)>
+fromTopFunction: false
+intent_use: virtualinvoke $r3.<android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)>("filenameAlias", $r5_2)
+intent_use: virtualinvoke $r3.<android.content.Intent: android.content.Intent addFlags(int)>(268435456)
+intent_use: virtualinvoke $r3.<android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)>("checksum", $r5_3)
+intent_use: virtualinvoke $r3.<android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)>("filename", $r5_1)
+intent_use: specialinvoke $r3.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>($r4, class "com/matburt/mobileorg/Gui/FileDecryptionActivity")
+intent_use: virtualinvoke $r3.<android.content.Intent: android.content.Intent putExtra(java.lang.String,byte[])>("data", $r6)
+
+className: com.matburt.mobileorg.Gui.FileDecryptionActivity
+flag: 268435456
+key: filename type: java.lang.String
+key: data type: byte[]
+key: checksum type: java.lang.String
+key: filenameAlias type: java.lang.String
+call_this_app: true
+call_ea_in_this_app: false
+
+-------------------------------------------------
+Activity: com.actionbarsherlock.widget.ActivityChooserView$Callbacks
+======
+Instruction: <com.actionbarsherlock.widget.ActivityChooserModel: android.content.Intent chooseActivity(int)>
+virtualinvoke $r8.<android.content.Context: void startActivity(android.content.Intent)>($r7)
+
+Entry function: 
+<com.actionbarsherlock.widget.ActivityChooserModel: android.content.Intent chooseActivity(int)>
+fromTopFunction: false
+intent_use: $r0 := @this: com.actionbarsherlock.widget.ActivityChooserModel
+intent_use: virtualinvoke $r11.<android.content.Intent: android.content.Intent setComponent(android.content.ComponentName)>($r2)
+
+component: $r2
+className: com.actionbarsherlock.widget.ActivityChooserModel
+call_this_app: false
+call_ea_in_this_app: false
+======
+Instruction: <com.actionbarsherlock.widget.ActivityChooserModel: android.content.Intent chooseActivity(int)>
+virtualinvoke $r9.<android.content.Context: void startActivity(android.content.Intent)>($r8)
+
+Entry function: 
+<com.actionbarsherlock.widget.ActivityChooserModel: android.content.Intent chooseActivity(int)>
+fromTopFunction: false
+intent_use: $r0 := @this: com.actionbarsherlock.widget.ActivityChooserModel
+intent_use: virtualinvoke $r11.<android.content.Intent: android.content.Intent setComponent(android.content.ComponentName)>($r2)
+
+component: $r2
+className: com.actionbarsherlock.widget.ActivityChooserModel
+call_this_app: false
+call_ea_in_this_app: false
+
+-------------------------------------------------
+Activity: com.matburt.mobileorg.Gui.FileDecryptionActivity
+======
+Instruction: <com.matburt.mobileorg.Gui.FileDecryptionActivity: void onCreate(android.os.Bundle)>
+virtualinvoke $r0.<com.matburt.mobileorg.Gui.FileDecryptionActivity: void startActivityForResult(android.content.Intent,int)>($r2_1, 554106881)
+
+Entry function: 
+<com.matburt.mobileorg.Gui.FileDecryptionActivity: void onCreate(android.os.Bundle)>
+fromTopFunction: false
+intent_use: virtualinvoke $r2_1.<android.content.Intent: android.content.Intent setType(java.lang.String)>("text/plain")
+intent_use: virtualinvoke $r2_1.<android.content.Intent: android.content.Intent putExtra(java.lang.String,byte[])>("data", $r5)
+intent_use: specialinvoke $r2_1.<android.content.Intent: void <init>(java.lang.String)>("org.thialfihar.android.apg.intent.DECRYPT_AND_RETURN")
+
+action: org.thialfihar.android.apg.intent.DECRYPT_AND_RETURN
+type: text/plain
+key: data type: byte[]
+call_this_app: false
+call_ea_in_this_app: false
+
+-------------------------------------------------
+Activity: com.dropbox.client2.android.AndroidAuthSession
+======
+Instruction: <com.dropbox.client2.android.AndroidAuthSession: void startAuthentication(android.content.Context)>
+virtualinvoke $r1.<android.content.Context: void startActivity(android.content.Intent)>($r4_1)
+
+Entry function: 
+<com.dropbox.client2.android.AndroidAuthSession: void startAuthentication(android.content.Context)>
+fromTopFunction: false
+intent_use: specialinvoke $r4_1.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>($r1, class "com/dropbox/client2/android/AuthActivity")
+intent_use: virtualinvoke $r4_1.<android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)>("EXTRA_INTERNAL_CONSUMER_KEY", $r7_4)
+intent_use: virtualinvoke $r4_1.<android.content.Intent: android.content.Intent addFlags(int)>(268435456)
+intent_use: virtualinvoke $r4_1.<android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)>("EXTRA_INTERNAL_CONSUMER_SECRET", $r7_5)
+
+className: com.dropbox.client2.android.AuthActivity
+flag: 268435456
+key: EXTRA_INTERNAL_CONSUMER_SECRET type: java.lang.String
+key: EXTRA_INTERNAL_CONSUMER_KEY type: java.lang.String
+call_this_app: true
+call_ea_in_this_app: true
+
+-------------------------------------------------
+Activity: com.matburt.mobileorg.Gui.Agenda.AgendaSettings$2
+======
+Instruction: <com.matburt.mobileorg.Gui.Agenda.AgendaSettings$2: void onItemClick(android.widget.AdapterView,android.view.View,int,long)>
+virtualinvoke $r4_2.<com.matburt.mobileorg.Gui.Agenda.AgendaSettings: void startActivity(android.content.Intent)>($r3)
+
+Entry function: 
+<com.matburt.mobileorg.Gui.Agenda.AgendaSettings$2: void onItemClick(android.widget.AdapterView,android.view.View,int,long)>
+fromTopFunction: false
+intent_use: virtualinvoke $r3.<android.content.Intent: android.content.Intent putExtra(java.lang.String,int)>("agenda_number", $i2)
+intent_use: specialinvoke $r3.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>($r4, class "com/matburt/mobileorg/Gui/Agenda/AgendaEntrySetting")
+intent_use: virtualinvoke $r3.<android.content.Intent: android.content.Intent putExtra(java.lang.String,int)>("entry_number", $i0)
+
+className: com.matburt.mobileorg.Gui.Agenda.AgendaEntrySetting
+key: agenda_number type: int
+key: entry_number type: int
+call_this_app: true
+call_ea_in_this_app: false
+
+-------------------------------------------------
+Activity: com.matburt.mobileorg.Gui.ViewFragment
+======
+Instruction: <com.matburt.mobileorg.Gui.ViewFragment: void handleInternalOrgUrl(java.lang.String)>
+virtualinvoke $r0.<com.matburt.mobileorg.Gui.ViewFragment: void startActivity(android.content.Intent)>($r2)
+
+Entry function: 
+<com.matburt.mobileorg.Gui.ViewFragment: void handleInternalOrgUrl(java.lang.String)>
+fromTopFunction: false
+intent_use: virtualinvoke $r2.<android.content.Intent: android.content.Intent putExtra(java.lang.String,long)>($r1_1, $l0)
+intent_use: specialinvoke $r2.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>($r4, class "com/matburt/mobileorg/Gui/ViewActivity")
+
+className: com.matburt.mobileorg.Gui.ViewActivity
+key: <com.matburt.mobileorg.Gui.ViewActivity: java.lang.String NODE_ID> type: long
+call_this_app: true
+call_ea_in_this_app: false
+
+-------------------------------------------------
+Activity: com.matburt.mobileorg.Gui.Wizard.Wizards.SSHWizard$1
+======
+Instruction: <com.matburt.mobileorg.Gui.Wizard.Wizards.SSHWizard$1: void onClick(android.view.View)>
+virtualinvoke $r5.<android.app.Activity: void startActivityForResult(android.content.Intent,int)>($r2, 1)
+
+Entry function: 
+<com.matburt.mobileorg.Gui.Wizard.Wizards.SSHWizard$1: void onClick(android.view.View)>
+fromTopFunction: false
+intent_use: virtualinvoke $r2.<android.content.Intent: android.content.Intent setType(java.lang.String)>("file/*")
+intent_use: specialinvoke $r2.<android.content.Intent: void <init>(java.lang.String)>("android.intent.action.GET_CONTENT")
+
+action: android.intent.action.GET_CONTENT
+type: file/*
+call_this_app: false
+call_ea_in_this_app: false
+
+-------------------------------------------------
+Activity: com.matburt.mobileorg.Gui.Agenda.AgendasFragment
+======
+Instruction: <com.matburt.mobileorg.Gui.Agenda.AgendasFragment: boolean onContextItemSelected(android.view.MenuItem)>
+virtualinvoke $r0.<com.matburt.mobileorg.Gui.Agenda.AgendasFragment: void startActivity(android.content.Intent)>($r2)
+
+Entry function: 
+<com.matburt.mobileorg.Gui.Agenda.AgendasFragment: boolean onContextItemSelected(android.view.MenuItem)>
+fromTopFunction: false
+intent_use: specialinvoke $r2.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>($r6_1, class "com/matburt/mobileorg/Gui/Agenda/AgendaSettings")
+intent_use: virtualinvoke $r2.<android.content.Intent: android.content.Intent putExtra(java.lang.String,int)>("agenda_number", $i0)
+
+className: com.matburt.mobileorg.Gui.Agenda.AgendaSettings
+key: agenda_number type: int
+call_this_app: true
+call_ea_in_this_app: false
+======
+Instruction: <com.matburt.mobileorg.Gui.Agenda.AgendasFragment: void showBlockAgendaFragment(int)>
+virtualinvoke $r0.<com.matburt.mobileorg.Gui.Agenda.AgendasFragment: void startActivity(android.content.Intent)>($r1)
+
+Entry function: 
+<com.matburt.mobileorg.Gui.Agenda.AgendasFragment: void showBlockAgendaFragment(int)>
+fromTopFunction: false
+intent_use: virtualinvoke $r1.<android.content.Intent: android.content.Intent putExtra(java.lang.String,int)>("position", $i0)
+intent_use: specialinvoke $r1.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>($r2, class "com/matburt/mobileorg/Gui/Agenda/AgendaActivity")
+
+className: com.matburt.mobileorg.Gui.Agenda.AgendaActivity
+key: position type: int
+call_this_app: true
+call_ea_in_this_app: false
+======
+Instruction: <com.matburt.mobileorg.Gui.Agenda.AgendasFragment: boolean onOptionsItemSelected(com.actionbarsherlock.view.MenuItem)>
+virtualinvoke $r0.<com.matburt.mobileorg.Gui.Agenda.AgendasFragment: void startActivity(android.content.Intent)>($r2)
+
+Entry function: 
+<com.matburt.mobileorg.Gui.Agenda.AgendasFragment: boolean onOptionsItemSelected(com.actionbarsherlock.view.MenuItem)>
+fromTopFunction: false
+intent_use: specialinvoke $r2.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>($r4, class "com/matburt/mobileorg/Gui/Agenda/AgendaSettings")
+
+className: com.matburt.mobileorg.Gui.Agenda.AgendaSettings
+call_this_app: true
+call_ea_in_this_app: false
+
+-------------------------------------------------
+Activity: com.matburt.mobileorg.Gui.ViewFragment$InternalWebViewClient
+======
+Instruction: <com.matburt.mobileorg.Gui.ViewFragment$InternalWebViewClient: boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String)>
+virtualinvoke $r7_3.<com.matburt.mobileorg.Gui.ViewFragment: void startActivity(android.content.Intent)>($r4)
+
+Entry function: 
+<com.matburt.mobileorg.Gui.ViewFragment$InternalWebViewClient: boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String)>
+fromTopFunction: false
+intent_use: specialinvoke $r4.<android.content.Intent: void <init>(java.lang.String)>("android.intent.action.VIEW")
+intent_use: virtualinvoke $r4.<android.content.Intent: android.content.Intent setData(android.net.Uri)>($r9)
+
+action: android.intent.action.VIEW
+uridata: unknown
+call_this_app: true
+call_ea_in_this_app: true
+
+-------------------------------------------------
+Activity: com.matburt.mobileorg.Gui.Outline.OutlineActivity
+======
+Instruction: <com.matburt.mobileorg.Gui.Outline.OutlineActivity: void runShowSettings(android.view.View)>
+virtualinvoke $r0.<com.matburt.mobileorg.Gui.Outline.OutlineActivity: void startActivity(android.content.Intent)>($r2)
+
+Entry function: 
+<com.matburt.mobileorg.Gui.Outline.OutlineActivity: void runShowSettings(android.view.View)>
+fromTopFunction: false
+intent_use: specialinvoke $r2.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>($r0, class "com/matburt/mobileorg/Settings/SettingsActivity")
+
+className: com.matburt.mobileorg.Settings.SettingsActivity
+call_this_app: true
+call_ea_in_this_app: false
+======
+Instruction: <com.matburt.mobileorg.Gui.Outline.OutlineActivity: void runShowWizard(android.view.View)>
+virtualinvoke $r0.<com.matburt.mobileorg.Gui.Outline.OutlineActivity: void startActivity(android.content.Intent)>($r2)
+
+Entry function: 
+<com.matburt.mobileorg.Gui.Outline.OutlineActivity: void runShowWizard(android.view.View)>
+fromTopFunction: false
+intent_use: specialinvoke $r2.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>($r0, class "com/matburt/mobileorg/Gui/Wizard/WizardActivity")
+
+className: com.matburt.mobileorg.Gui.Wizard.WizardActivity
+call_this_app: true
+call_ea_in_this_app: true
+======
+Instruction: <com.matburt.mobileorg.Gui.Outline.OutlineActivity: void runAgenda()>
+virtualinvoke $r0.<com.matburt.mobileorg.Gui.Outline.OutlineActivity: void startActivity(android.content.Intent)>($r1)
+
+Entry function: 
+<com.matburt.mobileorg.Gui.Outline.OutlineActivity: void runAgenda()>
+fromTopFunction: false
+intent_use: specialinvoke $r1.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>($r0, class "com/matburt/mobileorg/Gui/Agenda/AgendasActivity")
+
+className: com.matburt.mobileorg.Gui.Agenda.AgendasActivity
+call_this_app: true
+call_ea_in_this_app: false
+======
+Instruction: <com.matburt.mobileorg.Gui.Outline.OutlineActivity: void runHelp(android.view.View)>
+virtualinvoke $r0.<com.matburt.mobileorg.Gui.Outline.OutlineActivity: void startActivity(android.content.Intent)>($r2)
+
+Entry function: 
+<com.matburt.mobileorg.Gui.Outline.OutlineActivity: void runHelp(android.view.View)>
+fromTopFunction: false
+intent_use: specialinvoke $r2.<android.content.Intent: void <init>(java.lang.String,android.net.Uri)>("android.intent.action.VIEW", $r3)
+
+action: android.intent.action.VIEW
+uridata: uri: https://github.com/matburt/mobileorg-android/wiki
+call_this_app: true
+call_ea_in_this_app: true
+======
+Instruction: <com.matburt.mobileorg.Gui.Outline.OutlineActivity: void runExpandableOutline(long)>
+virtualinvoke $r0.<com.matburt.mobileorg.Gui.Outline.OutlineActivity: void startActivity(android.content.Intent)>($r1)
+
+Entry function: 
+<com.matburt.mobileorg.Gui.Outline.OutlineActivity: void runExpandableOutline(long)>
+fromTopFunction: false
+intent_use: specialinvoke $r1.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>($r0, class "com/matburt/mobileorg/Gui/Outline/OutlineActivity")
+intent_use: virtualinvoke $r1.<android.content.Intent: android.content.Intent putExtra(java.lang.String,long)>("node_id", $l0)
+
+className: com.matburt.mobileorg.Gui.Outline.OutlineActivity
+key: node_id type: long
+call_this_app: true
+call_ea_in_this_app: false
+
+-------------------------------------------------
+Activity: com.actionbarsherlock.widget.ShareActionProvider$ShareMenuItemOnMenuItemClickListener
+======
+Instruction: <com.actionbarsherlock.widget.ActivityChooserModel: android.content.Intent chooseActivity(int)>
+virtualinvoke $r3_1.<android.content.Context: void startActivity(android.content.Intent)>($r6)
+
+Entry function: 
+<com.actionbarsherlock.widget.ActivityChooserModel: android.content.Intent chooseActivity(int)>
+fromTopFunction: false
+intent_use: $r0 := @this: com.actionbarsherlock.widget.ActivityChooserModel
+intent_use: virtualinvoke $r11.<android.content.Intent: android.content.Intent setComponent(android.content.ComponentName)>($r2)
+
+component: $r2
+className: com.actionbarsherlock.widget.ActivityChooserModel
+call_this_app: false
+call_ea_in_this_app: false
+
+-------------------------------------------------
+Activity: com.twofortyfouram.locale.MarketActivity$2
+======
+Instruction: <com.twofortyfouram.locale.MarketActivity$2: void onClick(android.content.DialogInterface,int)>
+virtualinvoke $r3.<com.twofortyfouram.locale.MarketActivity: void startActivity(android.content.Intent)>($r4_1)
+
+Entry function: 
+<com.twofortyfouram.locale.MarketActivity$2: void onClick(android.content.DialogInterface,int)>
+fromTopFunction: true
+intent_use: specialinvoke $r4.<android.content.Intent: void <init>(java.lang.String,android.net.Uri)>("android.intent.action.VIEW", $r8)
+intent_use: $r4_1 = virtualinvoke $r4.<android.content.Intent: android.content.Intent addFlags(int)>(67108864)
+
+action: android.intent.action.VIEW
+uridata: unknown
+flag: 67108864
+call_this_app: true
+call_ea_in_this_app: true
+======
+Instruction: <com.twofortyfouram.locale.MarketActivity$2: void onClick(android.content.DialogInterface,int)>
+virtualinvoke $r3_3.<com.twofortyfouram.locale.MarketActivity: void startActivity(android.content.Intent)>($r4_5)
+
+Entry function: 
+<com.twofortyfouram.locale.MarketActivity$2: void onClick(android.content.DialogInterface,int)>
+fromTopFunction: true
+intent_use: specialinvoke $r4_4.<android.content.Intent: void <init>(java.lang.String,android.net.Uri)>("android.intent.action.VIEW", $r8_3)
+intent_use: $r4_5 = virtualinvoke $r4_4.<android.content.Intent: android.content.Intent addFlags(int)>(67108864)
+
+action: android.intent.action.VIEW
+uridata: unknown
+flag: 67108864
+call_this_app: true
+call_ea_in_this_app: true
+
+-------------------------------------------------
+Activity: com.actionbarsherlock.internal.view.menu.ActionMenuItem
+======
+Instruction: <com.actionbarsherlock.internal.view.menu.ActionMenuItem: boolean invoke()>
+virtualinvoke $r3.<android.content.Context: void startActivity(android.content.Intent)>($r1_1)
+
+Entry function: 
+<com.actionbarsherlock.internal.view.menu.ActionMenuItem: boolean invoke()>
+fromTopFunction: false
+intent_use: $r0 := @this: com.actionbarsherlock.internal.view.menu.ActionMenuItem
+
+className: com.actionbarsherlock.internal.view.menu.ActionMenuItem
+call_this_app: false
+call_ea_in_this_app: false

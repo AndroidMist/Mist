@@ -1,0 +1,14 @@
+exTrue(true).
+ifTrue(true).
+mainAct(false).
+noDefault(true).
+sysActNoData(false).
+priority(false).
+permission(false).
+clsDeclare(false).
+clsInvoke(false).
+actInvoke(false).
+similar(false).
+debug(false).
+highRatio(false).
+nonSysAct(true).

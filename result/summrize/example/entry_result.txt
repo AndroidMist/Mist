@@ -1,0 +1,11 @@
+invokcation from Top Function: 6
+invokcation not from Top Function: 52
+
+top entry function number:
+
+onClick: 3
+onDownloadStart: 1
+onMenuItemSelected: 1
+onContextItemSelected: 1
+-----------------------------------------
+

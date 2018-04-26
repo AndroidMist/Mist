@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:id="@id/spinnerTarget" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="40.0dip" android:color="#ff000000" style="?android:attr/dropDownItemStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

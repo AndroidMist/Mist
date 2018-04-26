@@ -1,0 +1,35 @@
+invoked class map of all app:
+
+com.actionbarsherlock.widget.ActivityChooserModel: 3
+com.matburt.mobileorg.Gui.Agenda.AgendaSettings: 2
+com.matburt.mobileorg.Gui.ViewActivity: 2
+com.jadn.cc.ui.OpmlImport: 2
+com.jadn.cc.ui.SubscriptionEdit: 2
+com.matburt.mobileorg.Gui.Capture.EditActivity: 2
+com.matburt.mobileorg.Gui.Agenda.AgendaEntrySetting: 2
+com.jadn.cc.ui.PodcastList: 1
+com.jadn.cc.ui.DownloadProgress: 1
+com.jadn.cc.ui.Search: 1
+com.google.ads.AdActivity: 1
+com.dropbox.client2.android.AuthActivity: 1
+com.actionbarsherlock.internal.view.menu.MenuItemImpl: 1
+com.dropbox.android.activity.auth.DropboxAuth: 1
+com.jadn.cc.ui.Stats: 1
+com.matburt.mobileorg.Gui.CertificateConflictActivity: 1
+com.jadn.cc.ui.Splash: 1
+com.jadn.cc.ui.SearchResults: 1
+com.matburt.mobileorg.Gui.Agenda.AgendaActivity: 1
+com.matburt.mobileorg.Gui.Agenda.AgendasActivity: 1
+com.matburt.mobileorg.Gui.FileDecryptionActivity: 1
+com.jadn.cc.ui.Subscriptions: 1
+com.matburt.mobileorg.Gui.Wizard.WizardActivity: 1
+com.matburt.mobileorg.Settings.SettingsActivity: 1
+com.matburt.mobileorg.Gui.Outline.OutlineActivity: 1
+com.jadn.cc.ui.AudioRecorder: 1
+com.jadn.cc.ui.OpmlLocator: 1
+com.jadn.cc.ui.Downloader: 1
+com.jadn.cc.ui.Settings: 1
+com.jadn.cc.ui.FeedbackHelp: 1
+com.actionbarsherlock.internal.view.menu.ActionMenuItem: 1
+-----------------------------------------
+

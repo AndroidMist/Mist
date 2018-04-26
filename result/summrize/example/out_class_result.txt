@@ -1,0 +1,7 @@
+invoked class map of other app:
+
+com.actionbarsherlock.widget.ActivityChooserModel: 3
+com.actionbarsherlock.internal.view.menu.MenuItemImpl: 1
+com.dropbox.android.activity.auth.DropboxAuth: 1
+com.actionbarsherlock.internal.view.menu.ActionMenuItem: 1
+-----------------------------------------

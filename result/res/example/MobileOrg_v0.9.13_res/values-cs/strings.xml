@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="twofortyfouram_locale_application_not_available">Aplikace není v telefonu nainstalována.</string>
+    <string name="twofortyfouram_locale_breadcrumb_format">%1$s%2$s%3$s</string>
+    <string name="twofortyfouram_locale_breadcrumb_separator">" > "</string>
+    <string name="twofortyfouram_locale_marketactivity_dialog_title">Aplikace Locale je vyžadována</string>
+    <string name="twofortyfouram_locale_marketactivity_dialog_message">Aplikace Locale je nutná pro použití toho pluginu. Chcete instalovat Locale?</string>
+    <string name="twofortyfouram_locale_marketactivity_dialog_button_search">Vyhledat</string>
+    <string name="twofortyfouram_locale_menu_dontsave">Zrušit</string>
+    <string name="twofortyfouram_locale_menu_help">Nápověda</string>
+    <string name="twofortyfouram_locale_menu_save">Hotovo</string>
+</resources>

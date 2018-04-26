@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/textView1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="OPML Import" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/textView5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+    <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/textView3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="How should the import be handled?" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/textView4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+    <Button android:id="@id/replaceAll" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Replace all subscriptions" />
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+    <Button android:id="@id/addToSubscription" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Add to subscriptions" />
+</LinearLayout>

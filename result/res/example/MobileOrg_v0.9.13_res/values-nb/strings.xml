@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="twofortyfouram_locale_application_not_available">Applikasjonen er ikke installert.</string>
+    <string name="twofortyfouram_locale_breadcrumb_format">%1$s%2$s%3$s</string>
+    <string name="twofortyfouram_locale_breadcrumb_separator">" > "</string>
+    <string name="twofortyfouram_locale_marketactivity_dialog_button_search">Søk</string>
+    <string name="twofortyfouram_locale_menu_dontsave">Avbryt</string>
+    <string name="twofortyfouram_locale_menu_help">Hjelp</string>
+    <string name="twofortyfouram_locale_menu_save">Ferdig</string>
+</resources>

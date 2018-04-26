@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_menu_close_clear_cancel" android:id="@id/agenda_entry_cancel" android:title="@string/menu_cancel" android:showAsAction="always" />
+    <item android:icon="@drawable/ic_menu_save" android:id="@id/agenda_entry_save" android:title="Save" android:showAsAction="always" />
+</menu>

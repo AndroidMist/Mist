@@ -1,0 +1,23 @@
+app_name: com.jadn.cc
+package_name: com.jadn.cc
+
+act_name: com.jadn.cc.ui.OpmlImport
+permission: 
+mIntentFilter
+intent_filter: 
+action: android.intent.action.VIEW 
+category: android.intent.category.DEFAULT category: android.intent.category.BROWSABLE 
+mime: text/xml mime: application/octet-stream 
+
+act_name: com.jadn.cc.ui.SubscriptionEdit
+permission: 
+mIntentFilter
+intent_filter: 
+action: android.intent.action.VIEW 
+category: android.intent.category.DEFAULT category: android.intent.category.BROWSABLE 
+scheme: http://host:*
+intent_filter: 
+action: android.intent.action.VIEW 
+category: android.intent.category.DEFAULT category: android.intent.category.BROWSABLE 
+mime: text/xml mime: application/rss+xml mime: application/atom+xml 
+scheme: http://

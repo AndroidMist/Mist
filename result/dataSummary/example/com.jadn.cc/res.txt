@@ -1,0 +1,90 @@
+
+-----------------------------------------
+Total Activity number: 17
+Exported Activity number: 2
+
+-----------------------------------------
+Call graph edge number: 2948
+Call graph node number: 2067
+
+-----------------------------------------
+startActivity number: 29
+handled intent number: 29
+intent with action or class number: 55
+
+-----------------------------------------
+successful intent: 28
+failed intent: 1
+
+normal: 22
+extra_phi: 1
+fieldRef: 0
+put_extra: 5
+out_edge: 0
+parameter: 0
+
+fail param: 0
+fail methed: 0
+fail other: 1
+
+-----------------------------------------
+call activity from top function: 4
+call activity from not top function: 25
+entry point is self: 25
+top entry function number:
+onClick : 1
+onDownloadStart : 1
+onMenuItemSelected : 1
+onContextItemSelected : 1
+
+-----------------------------------------
+call activity of other app: 7
+call activity of this app: 22
+call exported activity of this app: 9
+call internal activity of this app: 13
+
+-----------------------------------------
+action map when call other apps: 
+android.intent.action.SEND: 5
+
+-----------------------------------------
+className map when call other apps: 
+
+-----------------------------------------
+com.jadn.cc.ui.OpmlImport : 17
+com.jadn.cc.ui.SubscriptionEdit : 2
+
+-----------------------------------------
+com.jadn.cc.ui.Splash : 1
+com.jadn.cc.ui.PodcastList : 1
+com.jadn.cc.ui.DownloadProgress : 1
+com.jadn.cc.ui.SearchResults : 1
+com.jadn.cc.ui.Search : 1
+com.google.ads.AdActivity : 1
+com.jadn.cc.ui.Subscriptions : 1
+com.jadn.cc.ui.Stats : 1
+com.jadn.cc.ui.AudioRecorder : 1
+com.jadn.cc.ui.OpmlLocator : 1
+com.jadn.cc.ui.Downloader : 1
+com.jadn.cc.ui.Settings : 1
+com.jadn.cc.ui.FeedbackHelp : 1
+
+-----------------------------------------
+invokcation of ea: 2/2
+invokcation of ia: 13/15
+
+-----------------------------------------
+test: 
+
+-----------------------------------------
+details of failed intents: 
+complex
+com.aocate.media.MediaPlayer; com.aocate.media.MediaPlayer; getPrestoMarketIntent
+virtualinvoke $r0.<android.content.Context: void startActivity(android.content.Intent)>($r1)
+Entry function: [<com.aocate.media.MediaPlayer: void openPrestoMarketIntent(android.content.Context)>]
+
+
+-----------------------------------------
+ action 2 class
+
+android.intent.action.VIEW: com.jadn.cc.ui.OpmlImport

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_menu_add2" android:id="@id/menu_capturechild" android:visible="true" android:title="@string/menu_capture" android:showAsAction="always" />
+    <item android:icon="@drawable/ic_menu_view" android:id="@id/menu_view" android:title="@string/menu_view" android:showAsAction="always" />
+    <item android:icon="@drawable/ic_menu_edit" android:id="@id/menu_edit" android:title="@string/menu_edit" android:showAsAction="always" />
+    <item android:icon="@drawable/ic_menu_delete" android:id="@id/menu_delete" android:title="@string/menu_delete" android:showAsAction="ifRoom" />
+    <item android:icon="@drawable/ic_menu_today" android:id="@id/menu_clockin" android:title="@string/menu_clockin" android:showAsAction="ifRoom" />
+    <item android:icon="@drawable/ic_menu_archive" android:id="@id/menu_archive" android:title="@string/menu_archive" android:showAsAction="ifRoom" />
+    <item android:icon="@drawable/ic_menu_archive" android:id="@id/menu_archive_tosibling" android:title="@string/menu_archive_tosibling" android:showAsAction="ifRoom" />
+</menu>

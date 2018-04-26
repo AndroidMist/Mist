@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/menu_48_subscription" android:id="@id/menuSiteList" android:title="Subscriptions" />
+    <item android:icon="@drawable/menu_48_podcast" android:id="@id/listPodcasts" android:title="Podcasts" />
+    <item android:icon="@drawable/menu_48_email" android:id="@id/email" android:title="Email Podcast" />
+    <item android:icon="@drawable/menu_48_help" android:id="@id/feedback" android:title="Feedback / Help" />
+    <item android:icon="@drawable/menu_48_download" android:id="@id/downloadNewPodcasts" android:title="Download Podcasts" />
+    <item android:id="@id/purgeAll" android:visible="false" android:title="Purge All" />
+    <item android:icon="@drawable/menu_48_settings" android:id="@id/settings" android:title="Settings" />
+    <item android:icon="@drawable/menu_48_settings" android:id="@id/stats" android:title="Stats" />
+</menu>

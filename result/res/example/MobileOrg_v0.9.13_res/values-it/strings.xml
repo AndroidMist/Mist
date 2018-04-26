@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="twofortyfouram_locale_application_not_available">"L'applicazione non è disponibile."</string>
+    <string name="twofortyfouram_locale_breadcrumb_format">%1$s%2$s%3$s</string>
+    <string name="twofortyfouram_locale_breadcrumb_separator">" > "</string>
+    <string name="twofortyfouram_locale_marketactivity_dialog_title">È richiesta la presenza di Locale</string>
+    <string name="twofortyfouram_locale_marketactivity_dialog_message">"Per utilizzare questo plug-in è richiesta la presenza di Locale. Vuoi cercare Locale sull'Android Market?"</string>
+    <string name="twofortyfouram_locale_marketactivity_dialog_button_search">Cerca</string>
+    <string name="twofortyfouram_locale_menu_dontsave">Annulla</string>
+    <string name="twofortyfouram_locale_menu_help">Aiuto</string>
+    <string name="twofortyfouram_locale_menu_save">Fine</string>
+</resources>

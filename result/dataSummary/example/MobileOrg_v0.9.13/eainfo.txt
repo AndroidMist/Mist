@@ -1,0 +1,66 @@
+app_name: MobileOrg_v0.9.13
+package_name: com.matburt.mobileorg
+
+act_name: com.matburt.mobileorg.Gui.Widget.CaptureWidgetConfig
+permission: 
+mIntentFilter
+intent_filter: 
+action: android.appwidget.action.APPWIDGET_CONFIGURE 
+
+act_name: com.matburt.mobileorg.Plugin.SyncEditActivity
+mExported
+permission: 
+mIntentFilter
+intent_filter: 
+action: com.twofortyfouram.locale.intent.action.EDIT_SETTING 
+extra_data:
+Bundle "com.twofortyfouram.locale.intent.extra.BUNDLE"
+
+act_name: com.matburt.mobileorg.Gui.Wizard.WizardActivity
+permission: 
+mIntentFilter
+intent_filter: 
+action: com.matburt.mobileorg.Settings.SETUP_WIZARD 
+category: android.intent.category.DEFAULT 
+
+act_name: com.matburt.mobileorg.Gui.Capture.EditActivity
+mExported
+permission: 
+mIntentFilter
+intent_filter: 
+action: com.matburt.mobileorg.CAPTURE action: android.intent.action.MAIN 
+category: android.intent.category.DEFAULT 
+intent_filter: 
+action: android.intent.action.SEND 
+category: android.intent.category.DEFAULT 
+mime: text/* 
+intent_filter: 
+action: com.matburt.mobileorg.CAPTURE action: android.intent.action.SEND 
+category: android.intent.category.DEFAULT category: com.google.android.voicesearch.SELF_NOTE 
+mime: text/plain 
+intent_filter: 
+action: com.matburt.mobileorg.CAPTURE action: com.google.android.gm.action.AUTO_SEND 
+category: android.intent.category.DEFAULT 
+mime: */* 
+
+act_name: com.dropbox.client2.android.AuthActivity
+permission: 
+mIntentFilter
+intent_filter: 
+action: android.intent.action.VIEW 
+category: android.intent.category.BROWSABLE category: android.intent.category.DEFAULT 
+scheme: db-et6v9bbqd4pu0ak://
+extra_data:
+String "EXTRA_INTERNAL_CONSUMER_SECRET"
+String "ACCESS_TOKEN"
+String "UID"
+String "EXTRA_INTERNAL_CONSUMER_KEY"
+String "ACCESS_SECRET"
+
+act_name: com.matburt.mobileorg.Gui.SearchActivity
+permission: 
+mIntentFilter
+intent_filter: 
+action: android.intent.action.SEARCH 
+extra_data:
+String "query"

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.matburt.mobileorg.Gui.Outline.OutlineListView android:id="@id/outline_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fastScrollEnabled="true" />
+    <RelativeLayout android:orientation="vertical" android:id="@id/outline_list_empty" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center_horizontal" android:paddingTop="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/logo" android:layout_centerHorizontal="true" android:contentDescription="Logo" />
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="20.0dip" android:layout_weight="1.0">
+                    <ImageButton android:layout_gravity="center_horizontal" android:id="@id/outline_wizard" android:background="@drawable/ic_menu_directions" android:layout_width="@dimen/outline_dashitem_width" android:layout_height="@dimen/outline_dashitem_height" android:onClick="runShowWizard" android:contentDescription="Wizard button" />
+                    <TextView android:textStyle="bold" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Setup Wizard" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="20.0dip" android:layout_weight="1.0">
+                    <ImageButton android:layout_gravity="center_horizontal" android:id="@id/outline_configure" android:background="@drawable/ic_menu_preferences" android:layout_width="@dimen/outline_dashitem_width" android:layout_height="@dimen/outline_dashitem_height" android:onClick="runShowSettings" android:contentDescription="Configure button" />
+                    <TextView android:textStyle="bold" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Settings" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="20.0dip" android:layout_weight="1.0">
+                    <ImageButton android:layout_gravity="center_horizontal" android:id="@id/outline_synchronize" android:background="@drawable/ic_menu_refresh" android:duplicateParentState="false" android:layout_width="@dimen/outline_dashitem_width" android:layout_height="@dimen/outline_dashitem_height" android:onClick="runSynchronize" android:contentDescription="Configure button" />
+                    <TextView android:textStyle="bold" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Synchronize" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="20.0dip" android:layout_weight="1.0">
+                    <ImageButton android:layout_gravity="center_horizontal" android:id="@id/outline_website" android:background="@drawable/ic_menu_home" android:layout_width="@dimen/outline_dashitem_width" android:layout_height="@dimen/outline_dashitem_height" android:onClick="runHelp" android:contentDescription="Configure button" />
+                    <TextView android:textStyle="bold" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Website" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

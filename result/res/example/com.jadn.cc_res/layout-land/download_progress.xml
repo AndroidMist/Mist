@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:padding="10.0px" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/startDownloads" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" android:text="Start Downloads" />
+    <Button android:id="@id/AbortDownloads" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" android:text="Abort Downloads" android:layout_toRightOf="@id/startDownloads" />
+    <Button android:id="@id/downloadDetails" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" android:text="Details..." android:layout_toRightOf="@id/AbortDownloads" />
+    <TextView android:textSize="18.0dip" android:id="@id/informational" android:paddingTop="10.0px" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Downloads occur in background" android:layout_below="@id/AbortDownloads" android:layout_centerInParent="true" />
+    <TextView android:textSize="18.0dip" android:id="@id/labelSubscriptionSites" android:paddingTop="10.0px" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Subscriptions" android:layout_below="@id/informational" />
+    <TextView android:textSize="18.0dip" android:id="@id/scanning" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" android:layout_below="@id/labelSubscriptionSites" />
+    <TextView android:textSize="18.0dip" android:id="@id/downloadingLabel" android:paddingTop="30.0px" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Download Progress" android:layout_below="@id/scanning" />
+    <TextView android:textSize="18.0dip" android:id="@id/progressSimple" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" android:layout_below="@id/downloadingLabel" />
+    <TextView android:textSize="18.0dip" android:id="@id/progressBytes" android:paddingBottom="20.0px" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" android:layout_below="@id/progressSimple" />
+    <ProgressBar android:scrollbarAlwaysDrawHorizontalTrack="true" android:scrollbarStyle="insideOverlay" android:id="@id/progress" android:clickable="true" android:layout_width="fill_parent" android:layout_height="30.0px" android:max="100" android:progress="0" android:secondaryProgress="0" android:layout_x="0.0px" android:layout_y="230.0px" android:layout_below="@id/progressBytes" style="?android:attr/progressBarStyleHorizontal" />
+    <TextView android:textSize="18.0dip" android:id="@id/subscriptionName" android:paddingTop="10.0px" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="fffff" android:singleLine="true" android:layout_below="@id/progress" />
+    <TextView android:textSize="18.0dip" android:id="@id/title" android:paddingBottom="10.0px" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="bbbbb" android:singleLine="true" android:layout_below="@id/subscriptionName" />
+</RelativeLayout>

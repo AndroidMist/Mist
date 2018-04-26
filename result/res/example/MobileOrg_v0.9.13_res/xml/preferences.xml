@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/preferences">
+        <PreferenceScreen android:title="@string/preference_synchronization">
+            <PreferenceCategory android:title="@string/preference_general">
+                <ListPreference android:entries="@array/fileSources" android:title="@string/preference_sync_source" android:selectable="false" android:key="@string/key_syncSource" android:summary="@string/preference_sync_source_summary" android:defaultValue="webdav" android:entryValues="@array/fileSourcesVals" />
+                <CheckBoxPreference android:title="@string/preference_autosync" android:key="doAutoSync" android:summary="@string/preference_autosync_summary" />
+                <ListPreference android:entries="@array/syncIntervals" android:title="@string/preference_autosync_interval" android:key="@string/key_autoSyncInterval" android:summary="@string/preference_autosync_interval_summary" android:dependency="doAutoSync" android:entryValues="@array/syncIntervalsVals" />
+                <CheckBoxPreference android:title="@string/preference_sync_wifi_only" android:key="@string/key_syncWifiOnly" android:summary="@string/preference_sync_wifi_only_summary" android:defaultValue="false" />
+            </PreferenceCategory>
+            <PreferenceCategory android:title="@string/preference_advanced">
+                <CheckBoxPreference android:title="@string/preference_capture_advanced" android:key="captureAdvanced" android:summary="@string/preference_capture_advanced_summary" android:defaultValue="true" />
+                <EditTextPreference android:title="@string/preference_exclude_tags" android:key="excludeTagsInheritance" android:summary="@string/preference_exclude_tags_summary" />
+                <CheckBoxPreference android:title="@string/preference_combine_block_agenda" android:key="combineBlockAgendas" android:summary="@string/preference_combine_block_agenda_summary" />
+            </PreferenceCategory>
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/preference_interface">
+            <PreferenceCategory android:title="@string/preference_general">
+                <ListPreference android:entries="@array/themes" android:title="@string/preference_theme" android:key="@string/key_theme" android:defaultValue="Dark" android:entryValues="@array/themes" />
+                <EditTextPreference android:maxLength="3" android:numeric="integer" android:title="@string/preference_fontsize" android:key="@string/key_fontSize" android:summary="@string/preference_fontsize_summary" android:defaultValue="14" />
+            </PreferenceCategory>
+            <PreferenceCategory android:title="@string/preference_view">
+                <CheckBoxPreference android:title="@string/preference_view_wrap_lines" android:key="viewWrapLines" android:summary="@string/preference_view_wrap_lines_summary" />
+                <CheckBoxPreference android:title="@string/preference_view_apply_formatting" android:key="viewApplyFormatting" android:summary="@string/preference_view_apply_formatting_summary" android:defaultValue="true" />
+                <ListPreference android:entries="@array/viewRecursionLevels" android:title="@string/preference_recursion_level" android:key="@string/key_viewRecursionMax" android:defaultValue="0" android:entryValues="@array/viewRecursionLevelsVals" />
+            </PreferenceCategory>
+            <PreferenceCategory android:title="@string/preference_edit">
+                <CheckBoxPreference android:title="@string/preference_view_on_click" android:key="viewOnClick" android:summary="@string/preference_view_on_click_summary" android:defaultValue="false" />
+                <ListPreference android:title="@string/preference_default_todo" android:key="@string/key_defaultTodo" android:summary="@string/preference_default_todo_summary" android:defaultValue="" />
+                <EditTextPreference android:title="@string/preference_selected_todos" android:key="@string/key_quick_todos" android:summary="@string/preference_selected_todos_summary" android:defaultValue="" />
+                <CheckBoxPreference android:title="@string/preference_capture_with_timestamp" android:key="captureWithTimestamp" android:summary="@string/preference_capture_with_timestamp_summary" android:defaultValue="false" />
+            </PreferenceCategory>
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/preference_calendar">
+            <PreferenceCategory android:title="@string/preference_general">
+                <CheckBoxPreference android:title="@string/preference_calendar_synch" android:key="calendarEnabled" android:summary="@string/preference_calendar_synch_summary" />
+                <ListPreference android:title="@string/preference_calendar_name" android:key="@string/key_calendarName" android:summary="@string/preference_calendar_name_summary" android:dependency="calendarEnabled" android:defaultValue="" />
+                <CheckBoxPreference android:title="@string/preference_calendar_reminder" android:key="calendarReminder" android:summary="@string/preference_calendar_reminder_summary" android:dependency="calendarEnabled" />
+                <EditTextPreference android:maxLength="3" android:numeric="integer" android:title="@string/preference_calendar_reminder_interval" android:key="@string/key_calendarReminderInterval" android:summary="@string/preference_calendar_reminder_interval_summary" android:dependency="calendarReminder" />
+            </PreferenceCategory>
+            <PreferenceCategory android:title="@string/preference_calendar_display">
+                <CheckBoxPreference android:title="@string/preference_calendar_show_done" android:key="calendarShowDone" android:summary="@string/preference_calendar_show_done_summary" android:dependency="calendarEnabled" android:defaultValue="true" />
+                <CheckBoxPreference android:title="@string/preference_calendar_show_past" android:key="calendarShowPast" android:summary="@string/preference_calendar_show_past_summary" android:dependency="calendarEnabled" android:defaultValue="true" />
+                <CheckBoxPreference android:title="@string/preference_calendar_show_habits" android:key="calendarHabits" android:summary="@string/preference_calendar_show_habits_summary" android:dependency="calendarEnabled" android:defaultValue="true" />
+            </PreferenceCategory>
+            <PreferenceCategory android:title="@string/preference_advanced">
+                <CheckBoxPreference android:title="@string/preference_calendar_pull" android:key="calendarPull" android:summary="@string/preference_calendar_pull_summary" android:dependency="calendarEnabled" android:defaultValue="false" />
+                <CheckBoxPreference android:title="@string/preference_calendar_pull_delete" android:key="calendarPullDelete" android:summary="@string/preference_calendar_pull_delete_summary" android:dependency="calendarPull" android:defaultValue="false" />
+            </PreferenceCategory>
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/preference_actions">
+        <Preference android:title="@string/preference_setup_wizard">
+            <intent android:action="com.matburt.mobileorg.Settings.SETUP_WIZARD" />
+        </Preference>
+        <Preference android:title="@string/preference_clear_db" android:key="clearDB" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/preference_other">
+        <PreferenceScreen android:title="@string/preference_version" android:key="VersionDisp" android:summary="0.9.13" />
+    </PreferenceCategory>
+</PreferenceScreen>

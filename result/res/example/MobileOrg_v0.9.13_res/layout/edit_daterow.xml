@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:layout_marginBottom="3.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/dateImage" android:layout_width="35.0dip" android:layout_height="35.0dip" android:src="@drawable/ic_menu_month" android:contentDescription="@string/edit_date_date" />
+    <Button android:layout_gravity="center_vertical" android:id="@id/dateButton" android:background="@drawable/border" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="35.0dip" android:layout_span="3" android:hint="@string/edit_date_date" android:includeFontPadding="false" />
+    <Button android:layout_gravity="center_vertical" android:id="@id/dateTimeStartButton" android:background="@drawable/border" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:minWidth="30.0dip" android:minHeight="35.0dip" android:layout_span="3" android:hint="@string/edit_date_start" />
+    <Button android:layout_gravity="center_vertical" android:id="@id/dateTimeEndButton" android:background="@drawable/border" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:minWidth="30.0dip" android:minHeight="35.0dip" android:layout_span="3" android:hint="@string/edit_date_end" />
+    <Button android:layout_gravity="center_vertical" android:id="@id/dateRemove" android:background="@drawable/ic_menu_close_clear_cancel" android:layout_width="35.0dip" android:layout_height="35.0dip" />
+</TableRow>

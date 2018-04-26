@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/capture_widget_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/capture_widget_icon" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_margin="5.0dip" android:src="@drawable/widget_capture" android:layout_weight="1.0" />
+    <TextView android:textColor="@android:color/primary_text_dark" android:layout_gravity="center" android:id="@id/capture_widget_text" android:background="@drawable/capture_widget_text_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

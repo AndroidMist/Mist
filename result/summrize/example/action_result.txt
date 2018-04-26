@@ -1,0 +1,9 @@
+invoked action map of all app:
+
+android.intent.action.VIEW: 10
+android.intent.action.SEND: 5
+android.intent.action.GET_CONTENT: 1
+com.dropbox.android.AUTHENTICATE_V1: 1
+org.thialfihar.android.apg.intent.DECRYPT_AND_RETURN: 1
+-----------------------------------------
+

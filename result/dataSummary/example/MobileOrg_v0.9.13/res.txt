@@ -1,0 +1,98 @@
+
+-----------------------------------------
+Total Activity number: 22
+Exported Activity number: 6
+
+-----------------------------------------
+Call graph edge number: 11797
+Call graph node number: 7965
+
+-----------------------------------------
+startActivity number: 31
+handled intent number: 29
+intent with action or class number: 58
+
+-----------------------------------------
+successful intent: 29
+failed intent: 1
+
+normal: 22
+extra_phi: 0
+fieldRef: 2
+put_extra: 2
+out_edge: 3
+parameter: 0
+
+fail param: 0
+fail methed: 1
+fail other: 0
+
+-----------------------------------------
+call activity from top function: 2
+call activity from not top function: 27
+entry point is self: 27
+top entry function number:
+onClick : 2
+
+-----------------------------------------
+call activity of other app: 8
+call activity of this app: 21
+call exported activity of this app: 9
+call internal activity of this app: 12
+
+-----------------------------------------
+action map when call other apps: 
+android.intent.action.GET_CONTENT: 1
+com.dropbox.android.AUTHENTICATE_V1: 1
+org.thialfihar.android.apg.intent.DECRYPT_AND_RETURN: 1
+
+-----------------------------------------
+className map when call other apps: 
+com.actionbarsherlock.widget.ActivityChooserModel: 3
+com.actionbarsherlock.internal.view.menu.MenuItemImpl: 1
+com.dropbox.android.activity.auth.DropboxAuth: 1
+com.actionbarsherlock.internal.view.menu.ActionMenuItem: 1
+
+-----------------------------------------
+com.matburt.mobileorg.Gui.Wizard.WizardActivity : 1
+com.matburt.mobileorg.Gui.Capture.EditActivity : 2
+com.dropbox.client2.android.AuthActivity : 6
+
+-----------------------------------------
+com.matburt.mobileorg.Gui.FileDecryptionActivity : 1
+com.matburt.mobileorg.Gui.Agenda.AgendaSettings : 2
+com.matburt.mobileorg.Gui.CertificateConflictActivity : 1
+com.matburt.mobileorg.Settings.SettingsActivity : 1
+com.matburt.mobileorg.Gui.Outline.OutlineActivity : 1
+com.matburt.mobileorg.Gui.Agenda.AgendaEntrySetting : 2
+com.matburt.mobileorg.Gui.ViewActivity : 2
+com.matburt.mobileorg.Gui.Agenda.AgendaActivity : 1
+com.matburt.mobileorg.Gui.Agenda.AgendasActivity : 1
+
+-----------------------------------------
+invokcation of ea: 3/6
+invokcation of ia: 9/16
+
+-----------------------------------------
+test: 
+
+-----------------------------------------
+details of failed intents: 
+noMethed
+<com.twofortyfouram.locale.MarketActivity$1: void onClick(android.content.DialogInterface,int)>
+virtualinvoke $r7.<com.twofortyfouram.locale.MarketActivity: void startActivity(android.content.Intent)>($r6)
+Entry function: [<com.twofortyfouram.locale.MarketActivity$1: void onClick(android.content.DialogInterface,int)>]
+
+
+-----------------------------------------
+ action 2 class
+
+android.intent.action.MAIN: com.matburt.mobileorg.Gui.Capture.EditActivity
+com.matburt.mobileorg.Settings.SETUP_WIZARD: com.matburt.mobileorg.Gui.Wizard.WizardActivity
+com.twofortyfouram.locale.intent.action.EDIT_SETTING: com.matburt.mobileorg.Plugin.SyncEditActivity
+android.intent.action.SEARCH: com.matburt.mobileorg.Gui.SearchActivity
+android.intent.action.VIEW: com.dropbox.client2.android.AuthActivity
+com.matburt.mobileorg.CAPTURE: com.matburt.mobileorg.Gui.Capture.EditActivity
+com.google.android.gm.action.AUTO_SEND: com.matburt.mobileorg.Gui.Capture.EditActivity
+android.intent.action.SEND: com.matburt.mobileorg.Gui.Capture.EditActivity
+android.appwidget.action.APPWIDGET_CONFIGURE: com.matburt.mobileorg.Gui.Widget.CaptureWidgetConfig

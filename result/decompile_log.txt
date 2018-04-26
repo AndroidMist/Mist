@@ -1,0 +1,4 @@
+[Parse] Parse 2 app(s) successfully
+[Time] dec_time: 6.21799206734s parse_time: 0s[Parse] Parse 2 app(s) successfully
+[Time] dec_time: 6.56999206543s parse_time: 0s[Parse] Parse 2 app(s) successfully
+[Time] dec_time: 6.10299181938s parse_time: 0s

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:paddingTop="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/EditBorders">
+        <EditText android:id="@id/agenda_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:hint="Title" android:ems="10">
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:paddingTop="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/EditBorders">
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Entries" />
+        <ListView android:id="@id/agenda_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip" />
+        <Button android:id="@id/agenda_create" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Add entry" />
+    </LinearLayout>
+</LinearLayout>

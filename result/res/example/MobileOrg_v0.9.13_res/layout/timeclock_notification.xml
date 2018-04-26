@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/timeclock_notification_icon" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginRight="5.0dip" android:src="@drawable/icon" android:scaleType="fitCenter" android:layout_alignParentLeft="true" android:contentDescription="Icon" />
+    <TextView android:id="@id/timeclock_notification_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:layout_marginRight="5.0dip" android:layout_toRightOf="@id/timeclock_notification_icon" android:layout_alignParentTop="true" style="@android:style/TextAppearance.Small" />
+    <TextView android:id="@id/timeclock_notification_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" style="@android:style/TextAppearance.Small" />
+</RelativeLayout>

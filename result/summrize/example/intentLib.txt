@@ -1,0 +1,58 @@
+app:com.jadn.cc.core.CarCastApplication	className:	action:android.intent.action.SEND	category:	uridata:	call_this_app:false	call_ea_in_this_app:false
+app:com.jadn.cc.core.CarCastApplication	className:com.jadn.cc.ui.SearchResults	action:	category:	uridata:	call_this_app:true	call_ea_in_this_app:false
+app:com.jadn.cc.core.CarCastApplication	className:	action:android.intent.action.VIEW	category:	uridata:unknown	call_this_app:true	call_ea_in_this_app:true
+app:com.jadn.cc.core.CarCastApplication	className:	action:	category:android.intent.category.LAUNCHER	uridata:	call_this_app:false	call_ea_in_this_app:false
+app:com.jadn.cc.core.CarCastApplication	className:	action:	category:	uridata:unknown	call_this_app:false	call_ea_in_this_app:false
+app:com.jadn.cc.core.CarCastApplication	className:com.jadn.cc.ui.Downloader	action:	category:	uridata:	call_this_app:true	call_ea_in_this_app:false
+app:com.jadn.cc.core.CarCastApplication	className:com.jadn.cc.ui.FeedbackHelp	action:	category:	uridata:	call_this_app:true	call_ea_in_this_app:false
+app:com.jadn.cc.core.CarCastApplication	className:com.jadn.cc.ui.Splash	action:	category:	uridata:	call_this_app:true	call_ea_in_this_app:false
+app:com.jadn.cc.core.CarCastApplication	className:	action:android.intent.action.SEND	category:	uridata:	call_this_app:false	call_ea_in_this_app:false
+app:com.jadn.cc.core.CarCastApplication	className:com.jadn.cc.ui.DownloadProgress	action:	category:	uridata:	call_this_app:true	call_ea_in_this_app:false
+app:com.jadn.cc.core.CarCastApplication	className:com.jadn.cc.ui.Settings	action:	category:	uridata:	call_this_app:true	call_ea_in_this_app:false
+app:com.jadn.cc.core.CarCastApplication	className:com.jadn.cc.ui.Subscriptions	action:	category:	uridata:	call_this_app:true	call_ea_in_this_app:false
+app:com.jadn.cc.core.CarCastApplication	className:com.jadn.cc.ui.Stats	action:	category:	uridata:	call_this_app:true	call_ea_in_this_app:false
+app:com.jadn.cc.core.CarCastApplication	className:com.jadn.cc.ui.PodcastList	action:	category:	uridata:	call_this_app:true	call_ea_in_this_app:false
+app:com.jadn.cc.core.CarCastApplication	className:com.jadn.cc.ui.AudioRecorder	action:	category:	uridata:	call_this_app:true	call_ea_in_this_app:false
+app:com.jadn.cc.core.CarCastApplication	className:com.jadn.cc.ui.Search	action:	category:	uridata:	call_this_app:true	call_ea_in_this_app:false
+app:com.jadn.cc.core.CarCastApplication	className:com.jadn.cc.ui.SubscriptionEdit	action:	category:	uridata:	call_this_app:true	call_ea_in_this_app:true
+app:com.jadn.cc.core.CarCastApplication	className:com.jadn.cc.ui.SubscriptionEdit	action:	category:	uridata:	call_this_app:true	call_ea_in_this_app:true
+app:com.jadn.cc.core.CarCastApplication	className:	action:android.intent.action.SEND	category:	uridata:	call_this_app:false	call_ea_in_this_app:false
+app:com.jadn.cc.core.CarCastApplication	className:com.jadn.cc.ui.OpmlLocator	action:	category:	uridata:	call_this_app:true	call_ea_in_this_app:false
+app:com.jadn.cc.core.CarCastApplication	className:	action:android.intent.action.VIEW	category:	uridata:unknown	call_this_app:true	call_ea_in_this_app:true
+app:com.jadn.cc.core.CarCastApplication	className:com.jadn.cc.ui.OpmlImport	action:	category:	uridata:uri: new java.io.File	call_this_app:true	call_ea_in_this_app:true
+app:com.jadn.cc.core.CarCastApplication	className:com.google.ads.AdActivity	action:	category:	uridata:	call_this_app:true	call_ea_in_this_app:false
+app:com.jadn.cc.core.CarCastApplication	className:com.jadn.cc.ui.OpmlImport	action:	category:	uridata:unknown	call_this_app:true	call_ea_in_this_app:true
+app:com.jadn.cc.core.CarCastApplication	className:	action:android.intent.action.SEND	category:	uridata:	call_this_app:false	call_ea_in_this_app:false
+app:com.jadn.cc.core.CarCastApplication	className:	action:android.intent.action.VIEW	category:	uridata:uri: http://jadn.com/cc/	call_this_app:true	call_ea_in_this_app:true
+app:com.jadn.cc.core.CarCastApplication	className:	action:android.intent.action.VIEW	category:	uridata:uri: http://jadn.com/cc/walk/	call_this_app:true	call_ea_in_this_app:true
+app:com.jadn.cc.core.CarCastApplication	className:	action:android.intent.action.VIEW	category:	uridata:uri: http://jadn.com/cc/QandA/	call_this_app:true	call_ea_in_this_app:true
+app:com.jadn.cc.core.CarCastApplication	className:	action:android.intent.action.SEND	category:	uridata:	call_this_app:false	call_ea_in_this_app:false
+app:com.matburt.mobileorg.OrgData.MobileOrgApplication	className:com.matburt.mobileorg.Gui.Agenda.AgendaEntrySetting	action:	category:	uridata:	call_this_app:true	call_ea_in_this_app:false
+app:com.matburt.mobileorg.OrgData.MobileOrgApplication	className:com.matburt.mobileorg.Gui.CertificateConflictActivity	action:	category:	uridata:	call_this_app:true	call_ea_in_this_app:false
+app:com.matburt.mobileorg.OrgData.MobileOrgApplication	className:com.matburt.mobileorg.Gui.Capture.EditActivity	action:	category:	uridata:	call_this_app:true	call_ea_in_this_app:true
+app:com.matburt.mobileorg.OrgData.MobileOrgApplication	className:com.matburt.mobileorg.Gui.ViewActivity	action:	category:	uridata:	call_this_app:true	call_ea_in_this_app:false
+app:com.matburt.mobileorg.OrgData.MobileOrgApplication	className:com.matburt.mobileorg.Gui.Capture.EditActivity	action:	category:	uridata:	call_this_app:true	call_ea_in_this_app:true
+app:com.matburt.mobileorg.OrgData.MobileOrgApplication	className:	action:android.intent.action.VIEW	category:	uridata:uri: ;	call_this_app:true	call_ea_in_this_app:true
+app:com.matburt.mobileorg.OrgData.MobileOrgApplication	className:com.dropbox.android.activity.auth.DropboxAuth	action:com.dropbox.android.AUTHENTICATE_V1	category:	uridata:	call_this_app:false	call_ea_in_this_app:false
+app:com.matburt.mobileorg.OrgData.MobileOrgApplication	className:com.actionbarsherlock.internal.view.menu.MenuItemImpl	action:	category:	uridata:	call_this_app:false	call_ea_in_this_app:false
+app:com.matburt.mobileorg.OrgData.MobileOrgApplication	className:com.matburt.mobileorg.Gui.FileDecryptionActivity	action:	category:	uridata:	call_this_app:true	call_ea_in_this_app:false
+app:com.matburt.mobileorg.OrgData.MobileOrgApplication	className:com.actionbarsherlock.widget.ActivityChooserModel	action:	category:	uridata:	call_this_app:false	call_ea_in_this_app:false
+app:com.matburt.mobileorg.OrgData.MobileOrgApplication	className:com.actionbarsherlock.widget.ActivityChooserModel	action:	category:	uridata:	call_this_app:false	call_ea_in_this_app:false
+app:com.matburt.mobileorg.OrgData.MobileOrgApplication	className:	action:org.thialfihar.android.apg.intent.DECRYPT_AND_RETURN	category:	uridata:	call_this_app:false	call_ea_in_this_app:false
+app:com.matburt.mobileorg.OrgData.MobileOrgApplication	className:com.dropbox.client2.android.AuthActivity	action:	category:	uridata:	call_this_app:true	call_ea_in_this_app:true
+app:com.matburt.mobileorg.OrgData.MobileOrgApplication	className:com.matburt.mobileorg.Gui.Agenda.AgendaEntrySetting	action:	category:	uridata:	call_this_app:true	call_ea_in_this_app:false
+app:com.matburt.mobileorg.OrgData.MobileOrgApplication	className:com.matburt.mobileorg.Gui.ViewActivity	action:	category:	uridata:	call_this_app:true	call_ea_in_this_app:false
+app:com.matburt.mobileorg.OrgData.MobileOrgApplication	className:	action:android.intent.action.GET_CONTENT	category:	uridata:	call_this_app:false	call_ea_in_this_app:false
+app:com.matburt.mobileorg.OrgData.MobileOrgApplication	className:com.matburt.mobileorg.Gui.Agenda.AgendaSettings	action:	category:	uridata:	call_this_app:true	call_ea_in_this_app:false
+app:com.matburt.mobileorg.OrgData.MobileOrgApplication	className:com.matburt.mobileorg.Gui.Agenda.AgendaActivity	action:	category:	uridata:	call_this_app:true	call_ea_in_this_app:false
+app:com.matburt.mobileorg.OrgData.MobileOrgApplication	className:com.matburt.mobileorg.Gui.Agenda.AgendaSettings	action:	category:	uridata:	call_this_app:true	call_ea_in_this_app:false
+app:com.matburt.mobileorg.OrgData.MobileOrgApplication	className:	action:android.intent.action.VIEW	category:	uridata:unknown	call_this_app:true	call_ea_in_this_app:true
+app:com.matburt.mobileorg.OrgData.MobileOrgApplication	className:com.matburt.mobileorg.Settings.SettingsActivity	action:	category:	uridata:	call_this_app:true	call_ea_in_this_app:false
+app:com.matburt.mobileorg.OrgData.MobileOrgApplication	className:com.matburt.mobileorg.Gui.Wizard.WizardActivity	action:	category:	uridata:	call_this_app:true	call_ea_in_this_app:true
+app:com.matburt.mobileorg.OrgData.MobileOrgApplication	className:com.matburt.mobileorg.Gui.Agenda.AgendasActivity	action:	category:	uridata:	call_this_app:true	call_ea_in_this_app:false
+app:com.matburt.mobileorg.OrgData.MobileOrgApplication	className:	action:android.intent.action.VIEW	category:	uridata:uri: https://github.com/matburt/mobileorg-android/wiki	call_this_app:true	call_ea_in_this_app:true
+app:com.matburt.mobileorg.OrgData.MobileOrgApplication	className:com.matburt.mobileorg.Gui.Outline.OutlineActivity	action:	category:	uridata:	call_this_app:true	call_ea_in_this_app:false
+app:com.matburt.mobileorg.OrgData.MobileOrgApplication	className:com.actionbarsherlock.widget.ActivityChooserModel	action:	category:	uridata:	call_this_app:false	call_ea_in_this_app:false
+app:com.matburt.mobileorg.OrgData.MobileOrgApplication	className:	action:android.intent.action.VIEW	category:	uridata:unknown	call_this_app:true	call_ea_in_this_app:true
+app:com.matburt.mobileorg.OrgData.MobileOrgApplication	className:	action:android.intent.action.VIEW	category:	uridata:unknown	call_this_app:true	call_ea_in_this_app:true
+app:com.matburt.mobileorg.OrgData.MobileOrgApplication	className:com.actionbarsherlock.internal.view.menu.ActionMenuItem	action:	category:	uridata:	call_this_app:false	call_ea_in_this_app:false

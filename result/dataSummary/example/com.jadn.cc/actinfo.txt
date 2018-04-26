@@ -1,0 +1,450 @@
+
+-------------------------------------------------
+Activity: com.google.ads.internal.j$a$2
+======
+Instruction: <com.google.ads.internal.j$a$2: void onClick(android.content.DialogInterface,int)>
+virtualinvoke $r4.<android.app.Activity: void startActivity(android.content.Intent)>($r5_3)
+
+Entry function: 
+<com.google.ads.internal.j$a$2: void onClick(android.content.DialogInterface,int)>
+fromTopFunction: false
+intent_use: specialinvoke $r5.<android.content.Intent: void <init>(java.lang.String)>("android.intent.action.SEND")
+intent_use: $r5_1 = virtualinvoke $r5.<android.content.Intent: android.content.Intent setType(java.lang.String)>("text/plain")
+
+action: android.intent.action.SEND
+type: text/plain
+call_this_app: false
+call_ea_in_this_app: false
+
+-------------------------------------------------
+Activity: com.jadn.cc.ui.Search$1
+======
+Instruction: <com.jadn.cc.ui.Search$1: void run()>
+virtualinvoke $r1_6.<com.jadn.cc.ui.Search: void startActivity(android.content.Intent)>($r10)
+
+Entry function: 
+<com.jadn.cc.ui.Search$1: void run()>
+fromTopFunction: false
+intent_use: specialinvoke $r10.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>($r11, class "com/jadn/cc/ui/SearchResults")
+
+className: com.jadn.cc.ui.SearchResults
+call_this_app: true
+call_ea_in_this_app: false
+
+-------------------------------------------------
+Activity: com.google.ads.AdActivity
+======
+Instruction: <com.google.ads.AdActivity: void b(java.util.HashMap,com.google.ads.internal.d)>
+virtualinvoke $r0.<com.google.ads.AdActivity: void startActivity(android.content.Intent)>($r8_1)_$r8
+
+Entry function: 
+<com.google.ads.AdActivity: void b(java.util.HashMap,com.google.ads.internal.d)>
+fromTopFunction: false
+intent_use: specialinvoke $r8.<android.content.Intent: void <init>(java.lang.String,android.net.Uri)>("android.intent.action.VIEW", $r7)
+
+action: android.intent.action.VIEW
+uridata: unknown
+call_this_app: true
+call_ea_in_this_app: true
+======
+Instruction: <com.google.ads.AdActivity: void a(java.util.HashMap,com.google.ads.internal.d)>
+virtualinvoke $r0.<com.google.ads.AdActivity: void startActivityForResult(android.content.Intent,int)>($r3, 0)
+
+Entry function: 
+<com.google.ads.AdActivity: void a(java.util.HashMap,com.google.ads.internal.d)>
+fromTopFunction: false
+intent_use: virtualinvoke $r3.<android.content.Intent: android.content.Intent setComponent(android.content.ComponentName)>($r4)
+intent_use: virtualinvoke $r3.<android.content.Intent: android.content.Intent addCategory(java.lang.String)>("android.intent.category.LAUNCHER")
+intent_use: virtualinvoke $r3.<android.content.Intent: android.content.Intent putExtras(android.os.Bundle)>($r6)
+intent_use: virtualinvoke $r3.<android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)>("com.google.circles.platform.intent.extra.ENTITY", $r8)
+intent_use: virtualinvoke $r3.<android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)>("com.google.circles.platform.intent.extra.ENTITY_TYPE", $r8_1)
+intent_use: virtualinvoke $r3.<android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)>("com.google.circles.platform.intent.extra.ACTION", $r8_2)
+
+component: $r4
+category: android.intent.category.LAUNCHER
+key:  type: android.os.Bundle
+key: com.google.circles.platform.intent.extra.ENTITY_TYPE type: java.lang.String
+key: com.google.circles.platform.intent.extra.ENTITY type: java.lang.String
+key: com.google.circles.platform.intent.extra.ACTION type: java.lang.String
+call_this_app: false
+call_ea_in_this_app: false
+======
+Instruction: <com.google.ads.AdActivity: void b(java.util.HashMap,com.google.ads.internal.d)>
+virtualinvoke $r0.<com.google.ads.AdActivity: void startActivity(android.content.Intent)>($r8_1)_$r8_2
+
+Entry function: 
+<com.google.ads.AdActivity: void b(java.util.HashMap,com.google.ads.internal.d)>
+fromTopFunction: false
+intent_use: specialinvoke $r8_2.<android.content.Intent: void <init>(java.lang.String,android.net.Uri)>($r5, $r7)
+
+uridata: unknown
+call_this_app: false
+call_ea_in_this_app: false
+
+-------------------------------------------------
+Activity: com.jadn.cc.ui.DownloadProgress$3
+======
+Instruction: <com.jadn.cc.ui.DownloadProgress$3: void onClick(android.view.View)>
+virtualinvoke $r2.<com.jadn.cc.ui.DownloadProgress: void startActivity(android.content.Intent)>($r3)
+
+Entry function: 
+<com.jadn.cc.ui.DownloadProgress$3: void onClick(android.view.View)>
+fromTopFunction: false
+intent_use: specialinvoke $r3.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>($r4, class "com/jadn/cc/ui/Downloader")
+
+className: com.jadn.cc.ui.Downloader
+call_this_app: true
+call_ea_in_this_app: false
+
+-------------------------------------------------
+Activity: com.jadn.cc.ui.CarCast
+======
+Instruction: <com.jadn.cc.ui.CarCast: boolean onMenuItemSelected(int,android.view.MenuItem)>
+virtualinvoke $r0.<com.jadn.cc.ui.CarCast: void startActivityForResult(android.content.Intent,int)>($r2_4, 0)
+
+Entry function: 
+<com.jadn.cc.ui.CarCast: boolean onMenuItemSelected(int,android.view.MenuItem)>
+fromTopFunction: false
+intent_use: specialinvoke $r2_4.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>($r0, class "com/jadn/cc/ui/FeedbackHelp")
+
+className: com.jadn.cc.ui.FeedbackHelp
+call_this_app: true
+call_ea_in_this_app: false
+======
+Instruction: <com.jadn.cc.ui.CarCast: void onCreate(android.os.Bundle)>
+virtualinvoke $r0.<com.jadn.cc.ui.CarCast: void startActivity(android.content.Intent)>($r18)
+
+Entry function: 
+<com.jadn.cc.ui.CarCast: void onCreate(android.os.Bundle)>
+fromTopFunction: false
+intent_use: specialinvoke $r18.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>($r0, class "com/jadn/cc/ui/Splash")
+
+className: com.jadn.cc.ui.Splash
+call_this_app: true
+call_ea_in_this_app: false
+======
+Instruction: <com.jadn.cc.ui.CarCast: boolean onMenuItemSelected(int,android.view.MenuItem)>
+virtualinvoke $r0.<com.jadn.cc.ui.CarCast: void startActivity(android.content.Intent)>($r2_2)
+
+Entry function: 
+<com.jadn.cc.ui.CarCast: boolean onMenuItemSelected(int,android.view.MenuItem)>
+fromTopFunction: false
+intent_use: virtualinvoke $r2_1.<android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String[])>("android.intent.extra.EMAIL", $r4)
+intent_use: virtualinvoke $r2_1.<android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)>("android.intent.extra.TEXT", $r6_3)
+intent_use: specialinvoke $r2_1.<android.content.Intent: void <init>(java.lang.String)>("android.intent.action.SEND")
+intent_use: virtualinvoke $r2_1.<android.content.Intent: android.content.Intent setType(java.lang.String)>("plain/text")
+intent_use: virtualinvoke $r2_1.<android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)>("android.intent.extra.SUBJECT", $r6_2)
+
+action: android.intent.action.SEND
+type: plain/text
+key: android.intent.extra.EMAIL type: java.lang.String[]
+key: android.intent.extra.SUBJECT type: java.lang.String
+key: android.intent.extra.TEXT type: java.lang.String
+call_this_app: false
+call_ea_in_this_app: false
+======
+Instruction: <com.jadn.cc.ui.CarCast: boolean onMenuItemSelected(int,android.view.MenuItem)>
+virtualinvoke $r0.<com.jadn.cc.ui.CarCast: void startActivityForResult(android.content.Intent,int)>($r2, 0)
+
+Entry function: 
+<com.jadn.cc.ui.CarCast: boolean onMenuItemSelected(int,android.view.MenuItem)>
+fromTopFunction: false
+intent_use: specialinvoke $r2.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>($r0, class "com/jadn/cc/ui/DownloadProgress")
+
+className: com.jadn.cc.ui.DownloadProgress
+call_this_app: true
+call_ea_in_this_app: false
+======
+Instruction: <com.jadn.cc.ui.CarCast: boolean onMenuItemSelected(int,android.view.MenuItem)>
+virtualinvoke $r0.<com.jadn.cc.ui.CarCast: void startActivity(android.content.Intent)>($r2_5)
+
+Entry function: 
+<com.jadn.cc.ui.CarCast: boolean onMenuItemSelected(int,android.view.MenuItem)>
+fromTopFunction: false
+intent_use: specialinvoke $r2_5.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>($r0, class "com/jadn/cc/ui/Settings")
+
+className: com.jadn.cc.ui.Settings
+call_this_app: true
+call_ea_in_this_app: false
+======
+Instruction: <com.jadn.cc.ui.CarCast: boolean onMenuItemSelected(int,android.view.MenuItem)>
+virtualinvoke $r0.<com.jadn.cc.ui.CarCast: void startActivityForResult(android.content.Intent,int)>($r2_7, 0)
+
+Entry function: 
+<com.jadn.cc.ui.CarCast: boolean onMenuItemSelected(int,android.view.MenuItem)>
+fromTopFunction: false
+intent_use: specialinvoke $r2_7.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>($r0, class "com/jadn/cc/ui/Subscriptions")
+
+className: com.jadn.cc.ui.Subscriptions
+call_this_app: true
+call_ea_in_this_app: false
+======
+Instruction: <com.jadn.cc.ui.CarCast: boolean onMenuItemSelected(int,android.view.MenuItem)>
+virtualinvoke $r0.<com.jadn.cc.ui.CarCast: void startActivity(android.content.Intent)>($r2_6)
+
+Entry function: 
+<com.jadn.cc.ui.CarCast: boolean onMenuItemSelected(int,android.view.MenuItem)>
+fromTopFunction: false
+intent_use: specialinvoke $r2_6.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>($r0, class "com/jadn/cc/ui/Stats")
+
+className: com.jadn.cc.ui.Stats
+call_this_app: true
+call_ea_in_this_app: false
+======
+Instruction: <com.jadn.cc.ui.CarCast: boolean onMenuItemSelected(int,android.view.MenuItem)>
+virtualinvoke $r0.<com.jadn.cc.ui.CarCast: void startActivityForResult(android.content.Intent,int)>($r2_8, 0)
+
+Entry function: 
+<com.jadn.cc.ui.CarCast: boolean onMenuItemSelected(int,android.view.MenuItem)>
+fromTopFunction: false
+intent_use: specialinvoke $r2_8.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>($r0, class "com/jadn/cc/ui/PodcastList")
+
+className: com.jadn.cc.ui.PodcastList
+call_this_app: true
+call_ea_in_this_app: false
+
+-------------------------------------------------
+Activity: com.jadn.cc.ui.CarCast$4
+======
+Instruction: <com.jadn.cc.ui.CarCast$4: boolean onTouch(android.view.View,android.view.MotionEvent)>
+virtualinvoke $r4_4.<com.jadn.cc.ui.CarCast: void startActivityForResult(android.content.Intent,int)>($r7, 0)
+
+Entry function: 
+<com.jadn.cc.ui.CarCast$4: boolean onTouch(android.view.View,android.view.MotionEvent)>
+fromTopFunction: false
+intent_use: specialinvoke $r7.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>($r8, class "com/jadn/cc/ui/AudioRecorder")
+
+className: com.jadn.cc.ui.AudioRecorder
+call_this_app: true
+call_ea_in_this_app: false
+
+-------------------------------------------------
+Activity: com.jadn.cc.ui.Subscriptions
+======
+Instruction: <com.jadn.cc.ui.Subscriptions: boolean onMenuItemSelected(int,android.view.MenuItem)>
+virtualinvoke $r0.<com.jadn.cc.ui.Subscriptions: void startActivityForResult(android.content.Intent,int)>($r2_1, 2147483647)
+
+Entry function: 
+<com.jadn.cc.ui.Subscriptions: boolean onMenuItemSelected(int,android.view.MenuItem)>
+fromTopFunction: false
+intent_use: specialinvoke $r2_1.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>($r0, class "com/jadn/cc/ui/Search")
+
+className: com.jadn.cc.ui.Search
+call_this_app: true
+call_ea_in_this_app: false
+======
+Instruction: <com.jadn.cc.ui.Subscriptions: boolean onMenuItemSelected(int,android.view.MenuItem)>
+virtualinvoke $r0.<com.jadn.cc.ui.Subscriptions: void startActivityForResult(android.content.Intent,int)>($r2, 2147483647)
+
+Entry function: 
+<com.jadn.cc.ui.Subscriptions: boolean onMenuItemSelected(int,android.view.MenuItem)>
+fromTopFunction: true
+intent_use: virtualinvoke $r2.<android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)>("focus", "This value is ignored; only the presence of the key matters.")
+intent_use: specialinvoke $r2.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>($r0, class "com/jadn/cc/ui/SubscriptionEdit")
+
+className: com.jadn.cc.ui.SubscriptionEdit
+key: focus type: java.lang.String
+call_this_app: true
+call_ea_in_this_app: true
+======
+Instruction: <com.jadn.cc.ui.Subscriptions: boolean onContextItemSelected(android.view.MenuItem)>
+virtualinvoke $r0.<com.jadn.cc.ui.Subscriptions: void startActivityForResult(android.content.Intent,int)>($r2, $i0_2)
+
+Entry function: 
+<com.jadn.cc.ui.Subscriptions: boolean onContextItemSelected(android.view.MenuItem)>
+fromTopFunction: true
+intent_use: virtualinvoke $r2.<android.content.Intent: android.content.Intent putExtra(java.lang.String,android.os.Parcelable)>("subscription", $r9)
+intent_use: specialinvoke $r2.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>($r0, class "com/jadn/cc/ui/SubscriptionEdit")
+
+className: com.jadn.cc.ui.SubscriptionEdit
+key: subscription type: android.os.Parcelable
+call_this_app: true
+call_ea_in_this_app: true
+======
+Instruction: <com.jadn.cc.ui.Subscriptions: void exportOpml()>
+virtualinvoke $r0.<com.jadn.cc.ui.Subscriptions: void startActivity(android.content.Intent)>($r2_1)
+
+Entry function: 
+<com.jadn.cc.ui.Subscriptions: void exportOpml()>
+fromTopFunction: false
+intent_use: specialinvoke $r2.<android.content.Intent: void <init>(java.lang.String)>("android.intent.action.SEND")
+intent_use: virtualinvoke $r2.<android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)>("android.intent.extra.SUBJECT", "CarCast OPML")
+intent_use: virtualinvoke $r2.<android.content.Intent: android.content.Intent setType(java.lang.String)>("text/xml")
+intent_use: virtualinvoke $r2.<android.content.Intent: android.content.Intent putExtra(java.lang.String,android.os.Parcelable)>("android.intent.extra.STREAM", $r8)
+
+action: android.intent.action.SEND
+type: text/xml
+key: android.intent.extra.STREAM type: android.os.Parcelable
+key: android.intent.extra.SUBJECT type: java.lang.String
+call_this_app: false
+call_ea_in_this_app: false
+======
+Instruction: <com.jadn.cc.ui.Subscriptions: boolean onMenuItemSelected(int,android.view.MenuItem)>
+virtualinvoke $r0.<com.jadn.cc.ui.Subscriptions: void startActivityForResult(android.content.Intent,int)>($r2_2, 0)
+
+Entry function: 
+<com.jadn.cc.ui.Subscriptions: boolean onMenuItemSelected(int,android.view.MenuItem)>
+fromTopFunction: false
+intent_use: specialinvoke $r2_2.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>($r0, class "com/jadn/cc/ui/OpmlLocator")
+
+className: com.jadn.cc.ui.OpmlLocator
+call_this_app: true
+call_ea_in_this_app: false
+
+-------------------------------------------------
+Activity: com.google.ads.internal.AdWebView$1
+======
+Instruction: <com.google.ads.internal.AdWebView$1: void onDownloadStart(java.lang.String,java.lang.String,java.lang.String,java.lang.String,long)>
+virtualinvoke $r8.<android.app.Activity: void startActivity(android.content.Intent)>($r5)
+
+Entry function: 
+<com.google.ads.internal.AdWebView$1: void onDownloadStart(java.lang.String,java.lang.String,java.lang.String,java.lang.String,long)>
+fromTopFunction: true
+intent_use: specialinvoke $r5.<android.content.Intent: void <init>(java.lang.String)>("android.intent.action.VIEW")
+intent_use: virtualinvoke $r5.<android.content.Intent: android.content.Intent setDataAndType(android.net.Uri,java.lang.String)>($r6, $r4)
+
+action: android.intent.action.VIEW
+uridata: unknown
+type: $r4
+call_this_app: true
+call_ea_in_this_app: true
+
+-------------------------------------------------
+Activity: com.jadn.cc.ui.OpmlLocator$1
+======
+Instruction: <com.jadn.cc.ui.OpmlLocator$1: void onClick(android.view.View)>
+virtualinvoke $r10_3.<com.jadn.cc.ui.OpmlLocator: void startActivity(android.content.Intent)>($r3)
+
+Entry function: 
+<com.jadn.cc.ui.OpmlLocator$1: void onClick(android.view.View)>
+fromTopFunction: true
+intent_use: specialinvoke $r3.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>($r11, class "com/jadn/cc/ui/OpmlImport")
+intent_use: virtualinvoke $r3.<android.content.Intent: android.content.Intent setData(android.net.Uri)>($r12)
+
+className: com.jadn.cc.ui.OpmlImport
+uridata: uri: new java.io.File
+call_this_app: true
+call_ea_in_this_app: true
+
+-------------------------------------------------
+Activity: com.google.ads.AdActivity$StaticMethodWrapper
+======
+Instruction: <com.google.ads.AdActivity$StaticMethodWrapper: void launchAdActivity(com.google.ads.internal.d,com.google.ads.internal.e)>
+virtualinvoke $r7.<android.app.Activity: void startActivity(android.content.Intent)>($r9)
+
+Entry function: 
+<com.google.ads.AdActivity$StaticMethodWrapper: void launchAdActivity(com.google.ads.internal.d,com.google.ads.internal.e)>
+fromTopFunction: false
+intent_use: specialinvoke $r9.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>($r10, class "com/google/ads/AdActivity")
+intent_use: virtualinvoke $r9.<android.content.Intent: android.content.Intent putExtra(java.lang.String,android.os.Bundle)>("com.google.ads.AdOpener", $r11)
+
+className: com.google.ads.AdActivity
+key: com.google.ads.AdOpener type: android.os.Bundle
+call_this_app: true
+call_ea_in_this_app: false
+
+-------------------------------------------------
+Activity: com.jadn.cc.ui.OpmlLocator
+======
+Instruction: <com.jadn.cc.ui.OpmlLocator: void run()>
+virtualinvoke $r0.<com.jadn.cc.ui.OpmlLocator: void startActivity(android.content.Intent)>($r1)
+
+Entry function: 
+<com.jadn.cc.ui.OpmlLocator: void run()>
+fromTopFunction: false
+intent_use: virtualinvoke $r1.<android.content.Intent: android.content.Intent setData(android.net.Uri)>($r8)
+intent_use: specialinvoke $r1.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>($r7, class "com/jadn/cc/ui/OpmlImport")
+
+className: com.jadn.cc.ui.OpmlImport
+uridata: unknown
+call_this_app: true
+call_ea_in_this_app: true
+
+-------------------------------------------------
+Activity: com.jadn.cc.ui.Downloader$2
+======
+Instruction: <com.jadn.cc.ui.Downloader$2: void run()>
+virtualinvoke $r8_6.<com.jadn.cc.ui.Downloader: void startActivity(android.content.Intent)>($r2_1)
+
+Entry function: 
+<com.jadn.cc.ui.Downloader$2: void run()>
+fromTopFunction: false
+intent_use: specialinvoke $r2.<android.content.Intent: void <init>(java.lang.String)>("android.intent.action.SEND")
+intent_use: virtualinvoke $r2.<android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)>("android.intent.extra.TEXT", "This email includes an attachment which describes the internals of your phone when CarCast was running.\n\nPlease add to here, (1) what is the problem as you see it?  (2) Does it happen everytime?\n\nThanks\n")
+intent_use: virtualinvoke $r2.<android.content.Intent: android.content.Intent putExtra(java.lang.String,android.os.Parcelable)>("android.intent.extra.STREAM", $r14)
+intent_use: virtualinvoke $r2.<android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String[])>("android.intent.extra.EMAIL", $r5)
+intent_use: virtualinvoke $r2.<android.content.Intent: android.content.Intent setType(java.lang.String)>("plain/text")
+intent_use: virtualinvoke $r2.<android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)>("android.intent.extra.SUBJECT", "Issue on download...")
+intent_use: virtualinvoke $r2.<android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)>("android.intent.extra.TEXT", $r7_6)
+
+action: android.intent.action.SEND
+type: plain/text
+key: android.intent.extra.EMAIL type: java.lang.String[]
+key: android.intent.extra.STREAM type: android.os.Parcelable
+key: android.intent.extra.SUBJECT type: java.lang.String
+key: android.intent.extra.TEXT type: java.lang.String
+call_this_app: false
+call_ea_in_this_app: false
+
+-------------------------------------------------
+Activity: com.jadn.cc.ui.FeedbackHelp
+======
+Instruction: <com.jadn.cc.ui.FeedbackHelp: void ccwebsite(android.view.View)>
+virtualinvoke $r0.<com.jadn.cc.ui.FeedbackHelp: void startActivity(android.content.Intent)>($r2)
+
+Entry function: 
+<com.jadn.cc.ui.FeedbackHelp: void ccwebsite(android.view.View)>
+fromTopFunction: false
+intent_use: virtualinvoke $r2.<android.content.Intent: android.content.Intent setData(android.net.Uri)>($r3)
+intent_use: specialinvoke $r2.<android.content.Intent: void <init>(java.lang.String)>("android.intent.action.VIEW")
+
+action: android.intent.action.VIEW
+uridata: uri: http://jadn.com/cc/
+call_this_app: true
+call_ea_in_this_app: true
+======
+Instruction: <com.jadn.cc.ui.FeedbackHelp: void quickTour(android.view.View)>
+virtualinvoke $r0.<com.jadn.cc.ui.FeedbackHelp: void startActivity(android.content.Intent)>($r2)
+
+Entry function: 
+<com.jadn.cc.ui.FeedbackHelp: void quickTour(android.view.View)>
+fromTopFunction: false
+intent_use: virtualinvoke $r2.<android.content.Intent: android.content.Intent setData(android.net.Uri)>($r3)
+intent_use: specialinvoke $r2.<android.content.Intent: void <init>(java.lang.String)>("android.intent.action.VIEW")
+
+action: android.intent.action.VIEW
+uridata: uri: http://jadn.com/cc/walk/
+call_this_app: true
+call_ea_in_this_app: true
+======
+Instruction: <com.jadn.cc.ui.FeedbackHelp: void qanda(android.view.View)>
+virtualinvoke $r0.<com.jadn.cc.ui.FeedbackHelp: void startActivity(android.content.Intent)>($r2)
+
+Entry function: 
+<com.jadn.cc.ui.FeedbackHelp: void qanda(android.view.View)>
+fromTopFunction: false
+intent_use: virtualinvoke $r2.<android.content.Intent: android.content.Intent setData(android.net.Uri)>($r3)
+intent_use: specialinvoke $r2.<android.content.Intent: void <init>(java.lang.String)>("android.intent.action.VIEW")
+
+action: android.intent.action.VIEW
+uridata: uri: http://jadn.com/cc/QandA/
+call_this_app: true
+call_ea_in_this_app: true
+======
+Instruction: <com.jadn.cc.ui.FeedbackHelp: void email(android.view.View)>
+virtualinvoke $r0.<com.jadn.cc.ui.FeedbackHelp: void startActivity(android.content.Intent)>($r2_1)
+
+Entry function: 
+<com.jadn.cc.ui.FeedbackHelp: void email(android.view.View)>
+fromTopFunction: false
+intent_use: virtualinvoke $r2.<android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)>("android.intent.extra.SUBJECT", $r5_2)
+intent_use: specialinvoke $r2.<android.content.Intent: void <init>(java.lang.String)>("android.intent.action.SEND")
+intent_use: virtualinvoke $r2.<android.content.Intent: android.content.Intent setType(java.lang.String)>("plain/text")
+intent_use: virtualinvoke $r2.<android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String[])>("android.intent.extra.EMAIL", $r3)
+
+action: android.intent.action.SEND
+type: plain/text
+key: android.intent.extra.EMAIL type: java.lang.String[]
+key: android.intent.extra.SUBJECT type: java.lang.String
+call_this_app: false
+call_ea_in_this_app: false

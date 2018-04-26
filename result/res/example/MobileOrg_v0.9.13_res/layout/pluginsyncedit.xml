@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center" android:paddingBottom="40.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sync_plugin_info" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <Button android:id="@id/plugin_sync_accept" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/accept" />
+        <Button android:id="@id/plugin_sync_deny" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/deny" />
+    </LinearLayout>
+</LinearLayout>

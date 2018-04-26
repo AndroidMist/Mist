@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout android:id="@id/widget0" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:gravity="center" android:id="@id/audioRecorderRecordButton" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="Record New Note" android:layout_x="90.0dip" android:layout_y="5.0dip" />
+    <Button android:gravity="center" android:id="@id/audioRecorderCancelButton" android:layout_width="110.0dip" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text=" Cancel " android:layout_x="5.0dip" android:layout_y="5.0dip" />
+    <ProgressBar android:id="@id/audioRecorderBusy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" android:indeterminateOnly="true" android:layout_x="135.0dip" android:layout_y="5.0dip" />
+    <Button android:gravity="center" android:id="@id/audioRecorderSaveButton" android:layout_width="110.0dip" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="  Save  " android:layout_x="205.0dip" android:layout_y="5.0dip" />
+    <ListView android:id="@id/audioRecorderListing" android:layout_width="fill_parent" android:layout_height="fill_parent" android:dividerHeight="5.0dip" android:layout_x="0.0dip" android:layout_y="55.0dip" />
+</AbsoluteLayout>

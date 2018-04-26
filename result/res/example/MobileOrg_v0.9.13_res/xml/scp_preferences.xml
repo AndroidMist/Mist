@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Scp">
+        <EditTextPreference android:name="scp_path" android:title="@string/title_scp_path" android:key="scpPath" android:dialogMessage="@string/summary_scp_path" android:inputType="textUri" />
+        <EditTextPreference android:name="scp_user" android:title="@string/username" android:key="scpUser" />
+        <EditTextPreference android:name="scp_password" android:password="true" android:title="@string/password" android:key="scpPass" android:inputType="textPassword" />
+        <EditTextPreference android:name="scp_host" android:title="@string/title_scp_host" android:key="scpHost" />
+        <EditTextPreference android:name="scp_port" android:title="@string/title_scp_port" android:key="scpPort" android:defaultValue="22" android:inputType="number" />
+    </PreferenceCategory>
+</PreferenceScreen>

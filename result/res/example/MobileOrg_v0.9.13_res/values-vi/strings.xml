@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="twofortyfouram_locale_application_not_available">Ứng dụng chưa có.</string>
+    <string name="twofortyfouram_locale_breadcrumb_format">%1$s%2$s%3$s</string>
+    <string name="twofortyfouram_locale_breadcrumb_separator">" > "</string>
+    <string name="twofortyfouram_locale_marketactivity_dialog_title">Cần có Locale</string>
+    <string name="twofortyfouram_locale_marketactivity_dialog_message">Cần có Locale để sử dụng plug-in này. Bạn có muốn tìm Locale trong Android Market không?</string>
+    <string name="twofortyfouram_locale_marketactivity_dialog_button_search">Tìm</string>
+    <string name="twofortyfouram_locale_menu_dontsave">Hủy</string>
+    <string name="twofortyfouram_locale_menu_help">Giúp đỡ</string>
+    <string name="twofortyfouram_locale_menu_save">Xong</string>
+</resources>

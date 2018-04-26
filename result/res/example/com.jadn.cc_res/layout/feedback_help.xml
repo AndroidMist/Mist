@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center|top" android:background="#ff000000" android:padding="1.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="5.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/qanda" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="80.0dip" android:text="View Questions / Answers" android:layout_below="@id/email" android:layout_centerInParent="true" android:onClick="qanda" />
+    <Button android:id="@id/ccwebsite" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="80.0dip" android:text="View Car Cast web site" android:layout_below="@id/qanda" android:layout_alignLeft="@id/qanda" android:layout_alignRight="@id/qanda" android:layout_centerInParent="true" android:onClick="ccwebsite" />
+    <Button android:id="@id/quickTour" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:maxWidth="230.0dip" android:text="View Quick Tour" android:layout_alignLeft="@id/qanda" android:layout_alignRight="@id/qanda" android:layout_alignParentTop="true" android:onClick="quickTour" />
+    <Button android:id="@id/email" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="80.0dip" android:text="Email Feedback" android:layout_below="@id/quickTour" android:layout_alignLeft="@id/qanda" android:layout_alignRight="@id/qanda" android:onClick="email" />
+</RelativeLayout>

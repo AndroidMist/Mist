@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/menu_48_reset" android:id="@id/resetToDemoSubscriptions" android:title="Reset to Demos" />
+    <item android:id="@id/export" android:title="Export OPML" />
+    <item android:id="@id/importx" android:title="ALPHA: Import OPML" />
+    <item android:icon="@drawable/menu_48_search" android:id="@id/search" android:title="Search" />
+    <item android:icon="@drawable/menu_48_add" android:id="@id/addSubscription" android:title="Add" />
+    <item android:icon="@drawable/menu_48_delete" android:id="@id/deleteAllSubscriptions" android:title="Delete All" />
+</menu>
