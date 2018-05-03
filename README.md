@@ -1,7 +1,10 @@
 # Mist
 
 Mist = MISexposure idenTification for Android
+
 It is designed for identifying the misexposed activities in Android apps.
+
+Steps:
 
 1. install swi-prolog
 > sudo apt-get install swi-prolog
