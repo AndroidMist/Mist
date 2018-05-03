@@ -13,6 +13,7 @@ Steps:
 > sudo apt-get install python2.7  
 
 3. setting
+
 put the apk under test into folder <i>apk\example</i>
 if you put apks in other location, modify the variables apk_dir and folder in run.sh
 
@@ -20,4 +21,5 @@ if you put apks in other location, modify the variables apk_dir and folder in ru
 > sh run.sh
 
 5. result
+
 the result files can be found in the folder <i>result</i>
